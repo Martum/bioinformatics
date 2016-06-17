@@ -1,0 +1,310 @@
+LOCUS       NM_000304               1861 bp    mRNA    linear   PRI 21-FEB-2016
+DEFINITION  Homo sapiens peripheral myelin protein 22 (PMP22), transcript
+            variant 1, mRNA.
+ACCESSION   NM_000304
+VERSION     NM_000304.3  GI:527317415
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 1861)
+  AUTHORS   Zhan Y, Zi X, Hu Z, Peng Y, Wu L, Li X, Jiang M, Liu L, Xie Y, Xia
+            K, Tang B and Zhang R.
+  TITLE     PMP22-Related neuropathies and other clinical manifestations in
+            Chinese han patients with charcot-marie-tooth disease type 1
+  JOURNAL   Muscle Nerve 52 (1), 69-75 (2015)
+   PUBMED   25522693
+  REMARK    GeneRIF: The SNP array has wide coverage, high sensitivity, and
+            high resolution and can be used as a screening tool to detect PMP22
+            dup/del as shown in this Chinese Han population.
+REFERENCE   2  (bases 1 to 1861)
+  AUTHORS   Hara T, Hashimoto Y, Akuzawa T, Hirai R, Kobayashi H and Sato K.
+  TITLE     Rer1 and calnexin regulate endoplasmic reticulum retention of a
+            peripheral myelin protein 22 mutant that causes type 1A
+            Charcot-Marie-Tooth disease
+  JOURNAL   Sci Rep 4, 6992 (2014)
+   PUBMED   25385046
+  REMARK    GeneRIF: Charcot-Marie-Tooth disease-related PMP22 is trapped in
+            the endoplasmic reticulum by calnexin-dependent retention and
+            Rer1-mediated early Golgi retrieval systems and partly degraded by
+            the Hrd1-mediated endoplasmic reticulum-associated degradation
+            system.
+            Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 1861)
+  AUTHORS   Suter U, Snipes GJ, Schoener-Scott R, Welcher AA, Pareek S, Lupski
+            JR, Murphy RA, Shooter EM and Patel PI.
+  TITLE     Regulation of tissue-specific expression of alternative peripheral
+            myelin protein-22 (PMP22) gene transcripts by two promoters
+  JOURNAL   J. Biol. Chem. 269 (41), 25795-25808 (1994)
+   PUBMED   7929285
+REFERENCE   4  (bases 1 to 1861)
+  AUTHORS   Roa BB, Dyck PJ, Marks HG, Chance PF and Lupski JR.
+  TITLE     Dejerine-Sottas syndrome associated with point mutation in the
+            peripheral myelin protein 22 (PMP22) gene
+  JOURNAL   Nat. Genet. 5 (3), 269-273 (1993)
+   PUBMED   8275092
+REFERENCE   5  (bases 1 to 1861)
+  AUTHORS   Bird,T.D.
+  TITLE     Hereditary Neuropathy with Liability to Pressure Palsies
+  JOURNAL   (in) Pagon RA, Adam MP, Ardinger HH, Wallace SE, Amemiya A, Bean
+            LJH, Bird TD, Fong CT, Mefford HC, Smith RJH and Stephens K (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301566
+REFERENCE   6  (bases 1 to 1861)
+  AUTHORS   Bird,T.D.
+  TITLE     Charcot-Marie-Tooth Hereditary Neuropathy Overview
+  JOURNAL   (in) Pagon RA, Adam MP, Ardinger HH, Wallace SE, Amemiya A, Bean
+            LJH, Bird TD, Fong CT, Mefford HC, Smith RJH and Stephens K (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301532
+REFERENCE   7  (bases 1 to 1861)
+  AUTHORS   Bird,T.D.
+  TITLE     Charcot-Marie-Tooth Neuropathy Type 1
+  JOURNAL   (in) Pagon RA, Adam MP, Ardinger HH, Wallace SE, Amemiya A, Bean
+            LJH, Bird TD, Fong CT, Mefford HC, Smith RJH and Stephens K (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301384
+REFERENCE   8  (bases 1 to 1861)
+  AUTHORS   Takahashi E, Takeda O, Himoro M, Nanao K, Takada G and Hayasaka K.
+  TITLE     Localization of PMP-22 gene (candidate gene for the
+            Charcot-Marie-Tooth disease 1A) to band 17p11.2 by direct R-banding
+            fluorescence in situ hybridization
+  JOURNAL   Jpn. J. Hum. Genet. 37 (4), 303-306 (1992)
+   PUBMED   1297450
+REFERENCE   9  (bases 1 to 1861)
+  AUTHORS   Lupski JR, de Oca-Luna RM, Slaugenhaupt S, Pentao L, Guzzetta V,
+            Trask BJ, Saucedo-Cardenas O, Barker DF, Killian JM, Garcia CA,
+            Chakravarti A and Patel PI.
+  TITLE     DNA duplication associated with Charcot-Marie-Tooth disease type 1A
+  JOURNAL   Cell 66 (2), 219-232 (1991)
+   PUBMED   1677316
+REFERENCE   10 (bases 1 to 1861)
+  AUTHORS   Lewis,D.O.
+  TITLE     Diagnostic evaluation of the juvenile offender: toward the
+            clarification of often overlooked psychopathology
+  JOURNAL   Child Psychiatry Hum Dev 6 (4), 198-213 (1976)
+   PUBMED   954484
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DB504971.1, D11428.1,
+            BQ212717.1, CK818720.1 and DV460945.1.
+            On Jul 27, 2013 this sequence version replaced gi:24430161.
+            
+            Summary: This gene encodes an integral membrane protein that is a
+            major component of myelin in the peripheral nervous system. Studies
+            suggest two alternately used promoters drive tissue-specific
+            expression. Various mutations of this gene are causes of
+            Charcot-Marie-Tooth disease Type IA, Dejerine-Sottas syndrome, and
+            hereditary neuropathy with liability to pressure palsies.
+            Alternative splicing results in multiple transcript variants.
+            [provided by RefSeq, Jul 2013].
+            
+            Transcript Variant: This variant (1) encodes the functional
+            protein. Variants 1, 2, 3 ,4, and 5 encode the same protein.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: D11428.1, BC091499.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA2145743, SAMEA2162568
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-50                DB504971.1         1-50
+            51-779              D11428.1           1-729
+            780-1297            BQ212717.1         140-657
+            1298-1860           CK818720.1         17-579              c
+            1861-1861           DV460945.1         315-315
+FEATURES             Location/Qualifiers
+     source          1..1861
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+                     /map="17p12"
+     gene            1..1861
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /note="peripheral myelin protein 22"
+                     /db_xref="GeneID:5376"
+                     /db_xref="HGNC:HGNC:9118"
+                     /db_xref="HPRD:03059"
+                     /db_xref="MIM:601097"
+     exon            1..204
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /inference="alignment:Splign:1.39.8"
+     misc_feature    32
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /note="transcription initiation site mapped in PubMed ID:
+                     7929285; the 5' most initiation site has not been
+                     determined"
+     exon            205..316
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /inference="alignment:Splign:1.39.8"
+     misc_feature    218..220
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /note="upstream in-frame stop codon"
+     CDS             239..721
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /note="growth arrest-specific protein 3; peripheral myelin
+                     protein 22 kDa"
+                     /codon_start=1
+                     /product="peripheral myelin protein 22"
+                     /protein_id="NP_000295.1"
+                     /db_xref="GI:4505907"
+                     /db_xref="CCDS:CCDS11168.1"
+                     /db_xref="GeneID:5376"
+                     /db_xref="HGNC:HGNC:9118"
+                     /db_xref="HPRD:03059"
+                     /db_xref="MIM:601097"
+                     /translation="MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCST
+                     SSSGNVHHCFSSSPNEWLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIF
+                     QILAGLCVMSAAAIYTVRHPEWHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE
+                     "
+     misc_feature    242..331
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q01453.1);
+                     transmembrane region"
+     misc_feature    431..511
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q01453.1);
+                     transmembrane region"
+     misc_feature    524..595
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q01453.1);
+                     transmembrane region"
+     misc_feature    638..706
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q01453.1);
+                     transmembrane region"
+     exon            317..416
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /inference="alignment:Splign:1.39.8"
+     exon            417..557
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /inference="alignment:Splign:1.39.8"
+     STS             424..567
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /standard_name="GDB:189307"
+                     /db_xref="UniSTS:155589"
+     exon            558..1861
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /inference="alignment:Splign:1.39.8"
+     STS             586..790
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /standard_name="GDB:335807"
+                     /db_xref="UniSTS:156607"
+     STS             745..989
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /standard_name="G10646"
+                     /db_xref="UniSTS:50030"
+     STS             1214..1331
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /standard_name="G62085"
+                     /db_xref="UniSTS:139089"
+     STS             1382..1623
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /standard_name="STS-D11428"
+                     /db_xref="UniSTS:22583"
+     STS             1670..1776
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+                     /standard_name="D17S2006"
+                     /db_xref="UniSTS:50425"
+     regulatory      1839..1844
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+     polyA_site      1860
+                     /gene="PMP22"
+                     /gene_synonym="CMT1A; CMT1E; DSS; GAS-3; GAS3; HMSNIA;
+                     HNPP; Sp110"
+ORIGIN      
+        1 aataaactgg aaagacgcct ggtctggctt cagttacagg gagcaccacc agggaacatc
+       61 tcggggagcc tggttggaag ctgcaggctt agtctgtcgg ctgcgggtct ctgactgccc
+      121 tgtggggagg gtcttgcctt aacatccctt gcatttggct gcaaagaaat ctgcttggaa
+      181 gaaggggtta cgctgtttgg ccgggcagaa actccgctga gcagaacttg ccgccagaat
+      241 gctcctcctg ttgctgagta tcatcgtcct ccacgtcgcg gtgctggtgc tgctgttcgt
+      301 ctccacgatc gtcagccaat ggatcgtggg caatggacac gcaactgatc tctggcagaa
+      361 ctgtagcacc tcttcctcag gaaatgtcca ccactgtttc tcatcatcac caaacgaatg
+      421 gctgcagtct gtccaggcca ccatgatcct gtcgatcatc ttcagcattc tgtctctgtt
+      481 cctgttcttc tgccaactct tcaccctcac caaggggggc aggttttaca tcactggaat
+      541 cttccaaatt cttgctggtc tgtgcgtgat gagtgctgcg gccatctaca cggtgaggca
+      601 cccggagtgg catctcaact cggattactc ctacggtttc gcctacatcc tggcctgggt
+      661 ggccttcccc ctggcccttc tcagcggtgt catctatgtg atcttgcgga aacgcgaatg
+      721 aggcgcccag acggtctgtc tgaggctctg agcgtacata gggaagggag gaagggaaaa
+      781 cagaaagcag acaaagaaaa aagagctagc ccaaaatccc aaactcaaac caaaccaaac
+      841 agaaagcagt ggaggtgggg gttgctgttg attgaagatg tatataatat ctccggttta
+      901 taaaacctat ttataacact ttttacatat atgtacatag tattgtttgc tttttatgtt
+      961 gaccatcagc ctcgtgttga gccttaaaga agtagctaag gaactttaca tcctaacagt
+     1021 ataatccagc tcagtatttt tgttttgttt tttgtttgtt tgttttgttt tacccagaaa
+     1081 taagataact ccatctcgcc ccttcccttt catctgaaag aagatacctc cctcccagtc
+     1141 cacctcattt agaaaaccaa agtgtgggta gaaaccccaa atgtccaaaa gcccttttct
+     1201 ggtgggtgac ccagtgcatc caacagaaac agccgctgcc cgaacctctg tgtgaagctt
+     1261 tacgcgcaca cggacaaaat gcccaaactg gagcccttgc aaaaacacgg cttgtggcat
+     1321 tggcatactt gcccttacag gtggagtatc ttcgtcacac atctaaatga gaaatcagtg
+     1381 acaacaagtc tttgaaatgg tgctatggat ttaccattcc ttattatcac taatcatcta
+     1441 aacaactcac tggaaatcca attaacaatt ttacaacata agatagaatg gagacctgaa
+     1501 taattctgtg taatataaat ggtttataac tgcttttgta cctagctagg ctgctattat
+     1561 tactataatg agtaaatcat aaagccttca tcactcccac atttttctta cggtcggagc
+     1621 atcagaacaa gcgtctagac tccttgggac cgtgagttcc tagagcttgg ctgggtctag
+     1681 gctgttctgt gcctccaagg actgtctggc aatgacttgt attggccacc aactgtagat
+     1741 gtatatatgg tgcccttctg atgctaagac tccagacctt ttgtttttgc tttgcatttt
+     1801 ctgattttat accaactgtg tggactaaga tgcattaaaa taaacatcag agtaactcac
+     1861 t
+//
+
+
