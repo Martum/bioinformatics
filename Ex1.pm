@@ -39,3 +39,17 @@ printf "orf 5\n";
 print $seqs[4]->seq, "\n";
 printf "orf 6\n";
 print $seqs[5]->seq, "\n";
+
+my $seqout1 = Bio::SeqIO->new(-file => ">orf1.fa", -format => "fasta");
+my $seqout2 = Bio::SeqIO->new(-file => ">orf2.fa", -format => "fasta");
+my $seqout3 = Bio::SeqIO->new(-file => ">orf3.fa", -format => "fasta");
+my $seqout4 = Bio::SeqIO->new(-file => ">orf4.fa", -format => "fasta");
+my $seqout5 = Bio::SeqIO->new(-file => ">orf5.fa", -format => "fasta");
+my $seqout6 = Bio::SeqIO->new(-file => ">orf6.fa", -format => "fasta");
+
+$seqout1->write_seq($seqs[0]);
+$seqout2->write_seq($seqs[1]);
+$seqout3->write_seq($seqs[2]);
+$seqout4->write_seq($seqs[3]);
+$seqout5->write_seq($seqs[4]);
+$seqout6->write_seq($seqs[5]);
