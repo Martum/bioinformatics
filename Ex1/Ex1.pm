@@ -21,9 +21,12 @@ while($fromStr < length($fastaSeq)){
     $fromStr = $fromStr + length($temp);
 }
 
+print $formattedFastaSeq;
+
 my $seq_obj = Bio::Seq->new(
     -seq => $formattedFastaSeq,
     -alphabet => 'dna' );
+
 
 @seqs = Bio::SeqUtils->translate_6frames($seq_obj);
 
