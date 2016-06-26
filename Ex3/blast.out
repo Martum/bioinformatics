@@ -1,0 +1,1229 @@
+BLASTP 2.4.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../swissprot
+           463,898 sequences; 174,163,246 total letters
+
+
+
+Query= -1F
+
+Length=620
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  gi|266803|sp|Q01453.1|PMP22_HUMAN RecName: Full=Peripheral myel...  322     5e-107
+  gi|130339|sp|P25094.1|PMP22_RAT RecName: Full=Peripheral myelin...  278     5e-90 
+  gi|130338|sp|P16646.2|PMP22_MOUSE RecName: Full=Peripheral myel...  277     1e-89 
+  gi|223590130|sp|Q9TQZ3.2|PMP22_BOVIN RecName: Full=Peripheral m...  267     1e-85 
+  gi|83288282|sp|Q6WL85.1|PMP22_HORSE RecName: Full=Peripheral my...  265     1e-84 
+  gi|81890524|sp|Q66HH2.1|EMP2_RAT RecName: Full=Epithelial membr...  135     9e-36 
+  gi|156630442|sp|A5A6N6.1|EMP2_PANTR RecName: Full=Epithelial me...  131     1e-34 
+  gi|1706643|sp|P54851.1|EMP2_HUMAN RecName: Full=Epithelial memb...  131     2e-34 
+  gi|704000368|sp|F1QIK8.2|EMP2_DANRE RecName: Full=Epithelial me...  130     4e-34 
+  gi|13124187|sp|O88662.1|EMP2_MOUSE RecName: Full=Epithelial mem...  130     4e-34 
+  gi|1706641|sp|P54850.1|EMP1_RABIT RecName: Full=Epithelial memb...  125     3e-32 
+  gi|20532063|sp|Q9QYW5.1|EMP3_RAT RecName: Full=Epithelial membr...  125     4e-32 
+  gi|408360084|sp|O35912.2|EMP3_MOUSE RecName: Full=Epithelial me...  122     3e-31 
+  gi|109828346|sp|Q2NKU9.1|EMP2_BOVIN RecName: Full=Epithelial me...  122     3e-31 
+  gi|3041684|sp|P54849.3|EMP1_HUMAN RecName: Full=Epithelial memb...  120     1e-30 
+  gi|75060502|sp|Q58DR6.1|EMP3_BOVIN RecName: Full=Epithelial mem...  111     3e-27 
+  gi|1706644|sp|P54852.1|EMP3_HUMAN RecName: Full=Epithelial memb...  110     7e-27 
+  gi|2507217|sp|P47801.2|EMP1_MOUSE RecName: Full=Epithelial memb...  101     1e-23 
+  gi|1706642|sp|P54848.1|EMP1_RAT RecName: Full=Epithelial membra...  97.1    2e-22 
+  gi|47606757|sp|Q8N6F1.2|CLD19_HUMAN RecName: Full=Claudin-19        47.8    7e-05 
+  gi|62286467|sp|Q5QT56.1|CLD19_RAT RecName: Full=Claudin-19          47.4    1e-04 
+  gi|6685278|sp|O88551.1|CLD1_MOUSE RecName: Full=Claudin-1           45.4    4e-04 
+  gi|47606764|sp|Q9ET38.3|CLD19_MOUSE RecName: Full=Claudin-19        44.7    7e-04 
+  gi|62296502|sp|P56745.2|CLD1_RAT RecName: Full=Claudin-1            44.7    8e-04 
+  gi|575773376|sp|Q9Z0S6.2|CLD10_MOUSE RecName: Full=Claudin-10       44.7    9e-04 
+  gi|6685311|sp|P78369.2|CLD10_HUMAN RecName: Full=Claudin-10; Al...  43.1    0.003 
+  gi|575773377|sp|Q5R8E5.2|CLD10_PONAB RecName: Full=Claudin-10       43.1    0.003 
+  gi|75060938|sp|Q5E9L0.1|CLD10_BOVIN RecName: Full=Claudin-10        42.4    0.004 
+  gi|68052146|sp|Q6L708.1|CLD1_BOVIN RecName: Full=Claudin-1          41.6    0.007 
+  gi|109821728|sp|Q2KIY2.1|CLD15_BOVIN RecName: Full=Claudin-15       42.0    0.007 
+  gi|939108067|sp|A8MUP6.3|GS1L2_HUMAN RecName: Full=Germ cell-sp...  41.6    0.012 
+  gi|20532401|sp|P56563.2|LMIP_MOUSE RecName: Full=Lens fiber mem...  40.4    0.012 
+  gi|1708853|sp|P54825.1|LMIP_RAT RecName: Full=Lens fiber membra...  40.4    0.013 
+  gi|6685283|sp|O95832.1|CLD1_HUMAN RecName: Full=Claudin-1; AltN...  40.4    0.019 
+  gi|122142426|sp|Q0VCN0.1|CLD18_BOVIN RecName: Full=Claudin-18       40.4    0.024 
+  gi|667467024|sp|D3ZQJ0.1|CLD15_RAT RecName: Full=Claudin-15         38.9    0.061 
+  gi|311033475|sp|O95471.4|CLD7_HUMAN RecName: Full=Claudin-7; Sh...  37.7    0.14  
+  gi|6685292|sp|Q9Z261.1|CLD7_MOUSE RecName: Full=Claudin-7           37.7    0.15  
+  gi|20532392|sp|Q9Z0S5.2|CLD15_MOUSE RecName: Full=Claudin-15        37.4    0.21  
+  gi|109821733|sp|Q3B7N4.1|CLD7_BOVIN RecName: Full=Claudin-7         37.4    0.22  
+  gi|7387578|sp|P56856.1|CLD18_HUMAN RecName: Full=Claudin-18         37.4    0.25  
+  gi|7387579|sp|P56857.1|CLD18_MOUSE RecName: Full=Claudin-18         37.0    0.35  
+  gi|2495903|sp|Q57756.1|Y308_METJA RecName: Full=Uncharacterized...  36.2    0.45  
+  gi|1708852|sp|P20274.2|LMIP_BOVIN RecName: Full=Lens fiber memb...  35.8    0.46  
+  gi|62296530|sp|Q9Z1L1.2|CLD7_RAT RecName: Full=Claudin-7            35.4    0.87  
+  gi|17433717|sp|P55344.2|LMIP_HUMAN RecName: Full=Lens fiber mem...  33.9    2.2   
+  gi|20532011|sp|Q8VHW8.1|CCG5_RAT RecName: Full=Voltage-dependen...  34.3    2.5   
+  gi|20532016|sp|Q8VHW4.1|CCG5_MOUSE RecName: Full=Voltage-depend...  34.3    2.5   
+  gi|20532390|sp|Q9UF02.2|CCG5_HUMAN RecName: Full=Voltage-depend...  34.3    2.6   
+  gi|20532020|sp|Q9CQX5.1|CLDN1_MOUSE RecName: Full=Claudin domai...  33.9    2.8   
+  gi|93204562|sp|Q2I3G8.1|COX3_ELEMA RecName: Full=Cytochrome c o...  33.1    5.3   
+  gi|82209772|sp|Q7ZXS7.1|CXG1_XENLA RecName: Full=Gap junction g...  33.5    5.6   
+  gi|82202284|sp|Q6NZH5.1|CXG1_XENTR RecName: Full=Gap junction g...  33.1    6.3   
+  gi|20532022|sp|Q9NY35.1|CLDN1_HUMAN RecName: Full=Claudin domai...  32.7    8.2   
+  gi|81743556|sp|Q8DKZ3.1|NDHL_THEEB RecName: Full=NAD(P)H-quinon...  30.4    8.5   
+  gi|6685272|sp|O14493.1|CLD4_HUMAN RecName: Full=Claudin-4; AltN...  32.3    9.0   
+  gi|6685274|sp|O19005.1|CLD4_CHLAE RecName: Full=Claudin-4; AltN...  32.0    9.5   
+
+
+> gi|266803|sp|Q01453.1|PMP22_HUMAN RecName: Full=Peripheral myelin 
+protein 22; Short=PMP-22; AltName: Full=Growth arrest-specific 
+protein 3; Short=GAS-3 gi|75061878|sp|Q5RAZ3.1|PMP22_PONAB 
+RecName: Full=Peripheral myelin protein 22; Short=PMP-22
+Length=160
+
+ Score = 322 bits (825),  Expect = 5e-107, Method: Compositional matrix adjust.
+ Identities = 160/160 (100%), Positives = 160/160 (100%), Gaps = 0/160 (0%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNE  139
+            MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNE
+Sbjct  1    MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNE  60
+
+Query  140  WLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVR  199
+            WLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVR
+Sbjct  61   WLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVR  120
+
+Query  200  HPEWHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE  239
+            HPEWHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE
+Sbjct  121  HPEWHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE  160
+
+
+> gi|130339|sp|P25094.1|PMP22_RAT RecName: Full=Peripheral myelin 
+protein 22; Short=PMP-22; AltName: Full=Protein CD25; AltName: 
+Full=SR13 myelin protein; AltName: Full=Schwann cell membrane 
+glycoprotein; Short=SAG
+Length=160
+
+ Score = 278 bits (711),  Expect = 5e-90, Method: Compositional matrix adjust.
+ Identities = 131/149 (88%), Positives = 143/149 (96%), Gaps = 0/149 (0%)
+
+Query  91   HVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMIL  150
+            H+AVLVLLFVSTIVSQW+VGNGH TDLWQNC+TS+ G V HC+SSS +EWLQSVQATMIL
+Sbjct  12   HIAVLVLLFVSTIVSQWLVGNGHRTDLWQNCTTSALGAVQHCYSSSVSEWLQSVQATMIL  71
+
+Query  151  SIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEWHLNSDYS  210
+            S+IFS+LSLFLFFCQLFTLTKGGRFYITG+FQILAGLCVMSAAAIYTVRH EWH+N+DYS
+Sbjct  72   SVIFSVLSLFLFFCQLFTLTKGGRFYITGVFQILAGLCVMSAAAIYTVRHSEWHVNNDYS  131
+
+Query  211  YGFAYILAWVAFPLALLSGVIYVILRKRE  239
+            YGFAYILAWVAFPLALLSG+IYVILRKRE
+Sbjct  132  YGFAYILAWVAFPLALLSGIIYVILRKRE  160
+
+
+> gi|130338|sp|P16646.2|PMP22_MOUSE RecName: Full=Peripheral myelin 
+protein 22; Short=PMP-22; AltName: Full=Growth arrest-specific 
+protein 3; Short=GAS-3
+Length=161
+
+ Score = 277 bits (709),  Expect = 1e-89, Method: Compositional matrix adjust.
+ Identities = 130/149 (87%), Positives = 142/149 (95%), Gaps = 0/149 (0%)
+
+Query  91   HVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMIL  150
+            H+AVLVLLFVSTIVSQW+VGNGH TDLWQNC+TS+ G V HC+SSS +EWLQSVQATMIL
+Sbjct  12   HIAVLVLLFVSTIVSQWLVGNGHTTDLWQNCTTSALGAVQHCYSSSVSEWLQSVQATMIL  71
+
+Query  151  SIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEWHLNSDYS  210
+            S+IFS+L+LFLFFCQLFTLTKGGRFYITG FQILAGLCVMSAAAIYTVRH EWH+N+DYS
+Sbjct  72   SVIFSVLALFLFFCQLFTLTKGGRFYITGFFQILAGLCVMSAAAIYTVRHSEWHVNTDYS  131
+
+Query  211  YGFAYILAWVAFPLALLSGVIYVILRKRE  239
+            YGFAYILAWVAFPLALLSG+IYVILRKRE
+Sbjct  132  YGFAYILAWVAFPLALLSGIIYVILRKRE  160
+
+
+> gi|223590130|sp|Q9TQZ3.2|PMP22_BOVIN RecName: Full=Peripheral 
+myelin protein 22; Short=PMP-22; AltName: Full=PAS positive 
+glycoprotein; Short=PASII
+Length=160
+
+ Score = 267 bits (682),  Expect = 1e-85, Method: Compositional matrix adjust.
+ Identities = 128/139 (92%), Positives = 133/139 (96%), Gaps = 0/139 (0%)
+
+Query  101  STIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMILSIIFSILSLF  160
+            STIVSQW+VGNGHATDLWQNCSTS  G+V HCFSSS NEWLQSVQATMILSIIFS+LSLF
+Sbjct  22   STIVSQWMVGNGHATDLWQNCSTSLMGSVQHCFSSSANEWLQSVQATMILSIIFSVLSLF  81
+
+Query  161  LFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEWHLNSDYSYGFAYILAWV  220
+            LFFCQLFTLTKGGRFYITG+FQILAGLCVMSAA+IYTVRHPEWH NSD SYGFAYILAWV
+Sbjct  82   LFFCQLFTLTKGGRFYITGVFQILAGLCVMSAASIYTVRHPEWHFNSDGSYGFAYILAWV  141
+
+Query  221  AFPLALLSGVIYVILRKRE  239
+            AFPLALLSGVIYVILRKRE
+Sbjct  142  AFPLALLSGVIYVILRKRE  160
+
+
+> gi|83288282|sp|Q6WL85.1|PMP22_HORSE RecName: Full=Peripheral 
+myelin protein 22; Short=PMP-22
+Length=159
+
+ Score = 265 bits (676),  Expect = 1e-84, Method: Compositional matrix adjust.
+ Identities = 128/138 (93%), Positives = 133/138 (96%), Gaps = 1/138 (1%)
+
+Query  102  TIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMILSIIFSILSLFL  161
+            TIVSQWIVGNGHATDLWQNCST+S GNV HC SSS NEWLQSVQATMILSIIFS+LSLFL
+Sbjct  23   TIVSQWIVGNGHATDLWQNCSTTS-GNVQHCLSSSANEWLQSVQATMILSIIFSVLSLFL  81
+
+Query  162  FFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEWHLNSDYSYGFAYILAWVA  221
+            FFCQLFTLTKGGRFYITGIFQILAGLCVMSAA+IYTVRHPEWHL+S YSYGFAYILAWVA
+Sbjct  82   FFCQLFTLTKGGRFYITGIFQILAGLCVMSAASIYTVRHPEWHLDSAYSYGFAYILAWVA  141
+
+Query  222  FPLALLSGVIYVILRKRE  239
+            FPLALLSGV+YVILRKRE
+Sbjct  142  FPLALLSGVVYVILRKRE  159
+
+
+> gi|81890524|sp|Q66HH2.1|EMP2_RAT RecName: Full=Epithelial membrane 
+protein 2; Short=EMP-2
+Length=172
+
+ Score = 135 bits (339),  Expect = 9e-36, Method: Compositional matrix adjust.
+ Identities = 74/172 (43%), Positives = 109/172 (63%), Gaps = 12/172 (7%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPN-  138
+            ML++L  IIV H+    LLF+STI + W VG+G + D+W+ C+ S++    +  SS+   
+Sbjct  1    MLVILAFIIVFHIVSTALLFISTIDNAWWVGDGFSADIWRVCTNSTNCTEINDLSSTEEF  60
+
+Query  139  ---EWLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAI  195
+                 +Q+VQATMILS I S +S  +F  QLF L +G RF +T I Q+++ LCVM  A++
+Sbjct  61   SGYSVMQAVQATMILSTILSCISFLIFLLQLFRLKQGERFVLTAIIQLMSCLCVMIGASV  120
+
+Query  196  YTVRHPEWH--------LNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE  239
+            YT R  + H        L  + SYG+++ILAWVAF    +SG++Y+ILRKR+
+Sbjct  121  YTDRRQDLHHQNSQLYYLLQEGSYGYSFILAWVAFAFTFISGLMYMILRKRK  172
+
+
+> gi|156630442|sp|A5A6N6.1|EMP2_PANTR RecName: Full=Epithelial 
+membrane protein 2; Short=EMP-2
+Length=167
+
+ Score = 131 bits (330),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 74/170 (44%), Positives = 108/170 (64%), Gaps = 13/170 (8%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNE  139
+            ML+LL  II  H+    LLF++TI + W VG+    D+W+ C+ +++  V    + S  E
+Sbjct  1    MLVLLAFIIAFHITSAALLFIATIDNAWWVGDEFFADVWRICTNNTNCTV---INDSFQE  57
+
+Query  140  W--LQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYT  197
+            +  LQ+VQATMILS I   ++ F+F  QLF L +G RF +T I Q+++ LCVM AA+IYT
+Sbjct  58   YSTLQAVQATMILSTILCCIAFFIFVLQLFRLKQGERFVLTSIIQLMSCLCVMIAASIYT  117
+
+Query  198  VRHPEWH--------LNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE  239
+             R  + H        +  + SYG++YILAWVAF    +SG++Y+ILRKR+
+Sbjct  118  DRREDIHHKNAKFYPVTREGSYGYSYILAWVAFACTFISGMMYLILRKRK  167
+
+
+> gi|1706643|sp|P54851.1|EMP2_HUMAN RecName: Full=Epithelial membrane 
+protein 2; Short=EMP-2; AltName: Full=Protein XMP
+Length=167
+
+ Score = 131 bits (330),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 73/170 (43%), Positives = 108/170 (64%), Gaps = 13/170 (8%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNE  139
+            ML+LL  II  H+    LLF++T+ + W VG+    D+W+ C+ +++  V    + S  E
+Sbjct  1    MLVLLAFIIAFHITSAALLFIATVDNAWWVGDEFFADVWRICTNNTNCTV---INDSFQE  57
+
+Query  140  W--LQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYT  197
+            +  LQ+VQATMILS I   ++ F+F  QLF L +G RF +T I Q+++ LCVM AA+IYT
+Sbjct  58   YSTLQAVQATMILSTILCCIAFFIFVLQLFRLKQGERFVLTSIIQLMSCLCVMIAASIYT  117
+
+Query  198  VRHPEWH--------LNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE  239
+             R  + H        +  + SYG++YILAWVAF    +SG++Y+ILRKR+
+Sbjct  118  DRREDIHDKNAKFYPVTREGSYGYSYILAWVAFACTFISGMMYLILRKRK  167
+
+
+> gi|704000368|sp|F1QIK8.2|EMP2_DANRE RecName: Full=Epithelial 
+membrane protein 2; Short=EMP-2
+Length=161
+
+ Score = 130 bits (327),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 65/162 (40%), Positives = 106/162 (65%), Gaps = 3/162 (2%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNE  139
+            ML++L  II+ H+   +LLF++TI + W +    + DLW NC+T++  ++    ++    
+Sbjct  1    MLVILAFIILFHITSAILLFIATINNAWRIKGDFSMDLWYNCNTTACYDIPKS-ATYDAA  59
+
+Query  140  WLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVR  199
+            +LQ+VQATMIL+ I   +  F+F  QLF L +G RF  T I Q+L+  CVM+ A+IYT  
+Sbjct  60   YLQAVQATMILATILCCVGFFVFILQLFRLKQGERFVFTAIIQLLSAFCVMTGASIYTAE  119
+
+Query  200  HPEWHLNS--DYSYGFAYILAWVAFPLALLSGVIYVILRKRE  239
+               ++     +  YG+++++AWVAFP+ LLSG++Y++LRKR+
+Sbjct  120  GLTFNGQEFKNAEYGYSFVVAWVAFPMTLLSGLMYLVLRKRK  161
+
+
+> gi|13124187|sp|O88662.1|EMP2_MOUSE RecName: Full=Epithelial membrane 
+protein 2; Short=EMP-2; AltName: Full=Protein XMP
+Length=172
+
+ Score = 130 bits (328),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 74/172 (43%), Positives = 107/172 (62%), Gaps = 12/172 (7%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSS-GNVHHCFSSSPN  138
+            ML++L  IIV H+    LLF+STI + W VG+  + DLW+ C+ S++   ++        
+Sbjct  1    MLVILAFIIVFHIVSTALLFISTIDNAWWVGDSFSADLWRVCTNSTNCTEINELTGPEAF  60
+
+Query  139  EW---LQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAI  195
+            E    +Q+VQATMILS I S +S  +F  QLF L +G RF +T I Q+++ LCVM  A+I
+Sbjct  61   EGYSVMQAVQATMILSTILSCISFLIFLLQLFRLKQGERFVLTSIIQLMSCLCVMIGASI  120
+
+Query  196  YTVRHPEWH--------LNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE  239
+            YT R  + H        L  + SYG+++ILAWVAF    +SG++Y+ILRKR+
+Sbjct  121  YTDRRQDLHQQNRKLYYLLQEGSYGYSFILAWVAFAFTFISGLMYMILRKRK  172
+
+
+> gi|1706641|sp|P54850.1|EMP1_RABIT RecName: Full=Epithelial membrane 
+protein 1; Short=EMP-1; AltName: Full=Squamous cell-specific 
+protein CL-20; AltName: Full=Tumor-associated membrane 
+protein
+Length=160
+
+ Score = 125 bits (313),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 71/163 (44%), Positives = 110/163 (67%), Gaps = 7/163 (4%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGN--GHATDLWQNCSTSSSGNVHHCFSSSP  137
+            ML+LL +I V+H+A  V+LFVSTI + W+V +    +  LW+NC+   SG+     S   
+Sbjct  1    MLVLLAAIFVVHIATCVMLFVSTIANVWVVSDSINASVGLWRNCT---SGDCSGGLSYGH  57
+
+Query  138  NEWLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYT  197
+             + L++VQA MILSIIFS++SL +F  QLFT+ KG RF+++G   ++  LCV+  A+IYT
+Sbjct  58   EDALKAVQAFMILSIIFSVISLIIFVFQLFTMEKGNRFFLSGATMLVCWLCVLIGASIYT  117
+
+Query  198  VRHPEWHLNS-DYS-YGFAYILAWVAFPLALLSGVIYVILRKR  238
+             R+     N+ D S +G+++ILAW+ F  + + GV+Y++LRK+
+Sbjct  118  HRYANGDSNTFDRSHHGYSFILAWICFCFSFVVGVLYLVLRKK  160
+
+
+> gi|20532063|sp|Q9QYW5.1|EMP3_RAT RecName: Full=Epithelial membrane 
+protein 3; Short=EMP-3
+Length=163
+
+ Score = 125 bits (313),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 68/157 (43%), Positives = 98/157 (62%), Gaps = 13/157 (8%)
+
+Query  91   HVAVLVLLFVSTI-VSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMI  149
+            H+ +LVLLFV+T+  S W +    + +LW +C+ +++     C + S N WL++VQA M+
+Sbjct  12   HILILVLLFVATLDKSWWTLPEKESLNLWYDCTWNTTAKTWACSNVSENGWLKAVQALMV  71
+
+Query  150  LSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTV-------RHPE  202
+            LS+I   LS  LF  QL+T+ +GG FY TG+ Q+     V S A IY +       +HP 
+Sbjct  72   LSLILCCLSFILFMIQLYTMRRGGLFYATGLCQLCTSAAVFSGALIYAIHAKEILAKHP-  130
+
+Query  203  WHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE  239
+                S  S+G+ + LAWVAFPLAL+SG+IY+ LRKRE
+Sbjct  131  ----SGGSFGYCFALAWVAFPLALVSGIIYIHLRKRE  163
+
+
+> gi|408360084|sp|O35912.2|EMP3_MOUSE RecName: Full=Epithelial 
+membrane protein 3; Short=EMP-3; AltName: Full=Hematopoietic 
+neural membrane protein 1; Short=HNMP-1; AltName: Full=Protein 
+YMP
+Length=163
+
+ Score = 122 bits (306),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 67/157 (43%), Positives = 98/157 (62%), Gaps = 13/157 (8%)
+
+Query  91   HVAVLVLLFVSTI-VSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMI  149
+            H+ +LVLLFV+T+  S W + +  + +LW +C+ +++     C + S N WL++VQA M+
+Sbjct  12   HILILVLLFVATLDKSWWTLPDKESLNLWYDCTWNTTTQTWACSNVSENGWLKAVQALMV  71
+
+Query  150  LSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTV-------RHPE  202
+            LS+I   LS  LF  QL+T+ +GG FY TG+ Q+     V S A IY +       +HP 
+Sbjct  72   LSLILCCLSFILFMFQLYTMRRGGLFYATGLCQLCTSAAVFSGALIYAIHTEEILAKHP-  130
+
+Query  203  WHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE  239
+                S  S+G+ + LAWVAFPLAL+SG +Y+ LRKRE
+Sbjct  131  ----SGGSFGYCFALAWVAFPLALVSGTVYIHLRKRE  163
+
+
+> gi|109828346|sp|Q2NKU9.1|EMP2_BOVIN RecName: Full=Epithelial 
+membrane protein 2; Short=EMP-2
+Length=167
+
+ Score = 122 bits (306),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 72/172 (42%), Positives = 103/172 (60%), Gaps = 17/172 (10%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSS----GNVHHCFSS  135
+            ML+LL  IIV H+    LL V+TI + W VG     D+W+ C  +++     +    FS+
+Sbjct  1    MLVLLAFIIVFHITSAALLLVATIDNAWWVGEEFFADIWKVCVNNTNCTELNDSVQDFST  60
+
+Query  136  SPNEWLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAI  195
+                 +Q+VQATMILS I   ++  +F  QLF L +G RF +T I Q++A LCVM AA+I
+Sbjct  61   -----VQAVQATMILSTILCCIAFLIFLLQLFRLKQGERFVLTSIIQLMACLCVMIAASI  115
+
+Query  196  YTVRHPEWH--------LNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE  239
+            YT R  + H          S  S+G+++ILAWVAF    +SG++Y+ILRKR+
+Sbjct  116  YTDRRKDIHEKNEELYAQTSGGSFGYSFILAWVAFAFTFISGLMYLILRKRK  167
+
+
+> gi|3041684|sp|P54849.3|EMP1_HUMAN RecName: Full=Epithelial membrane 
+protein 1; Short=EMP-1; AltName: Full=CL-20; AltName: 
+Full=Protein B4B; AltName: Full=Tumor-associated membrane protein 
+gi|75061945|sp|Q5RCY3.1|EMP1_PONAB RecName: Full=Epithelial 
+membrane protein 1; Short=EMP-1 [Pongo abelii]
+Length=157
+
+ Score = 120 bits (301),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 64/161 (40%), Positives = 104/161 (65%), Gaps = 6/161 (4%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGN--GHATDLWQNCSTSSSGNVHHCFSSSP  137
+            ML+LL  I V+H+A +++LFVSTI + W+V N    +  LW+NC+  S  +     S + 
+Sbjct  1    MLVLLAGIFVVHIATVIMLFVSTIANVWLVSNTVDASVGLWKNCTNISCSD---SLSYAS  57
+
+Query  138  NEWLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYT  197
+             + L++VQA MILSIIF +++L +F  QLFT+ KG RF+++G   ++  LC++   +IYT
+Sbjct  58   EDALKTVQAFMILSIIFCVIALLVFVFQLFTMEKGNRFFLSGATTLVCWLCILVGVSIYT  117
+
+Query  198  VRHPEWHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKR  238
+              H      + Y +G++YIL W+ F  + + GV+Y++LRK+
+Sbjct  118  -SHYANRDGTQYHHGYSYILGWICFCFSFIIGVLYLVLRKK  157
+
+
+> gi|75060502|sp|Q58DR6.1|EMP3_BOVIN RecName: Full=Epithelial membrane 
+protein 3; Short=EMP-3
+Length=163
+
+ Score = 111 bits (277),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 61/144 (42%), Positives = 87/144 (60%), Gaps = 3/144 (2%)
+
+Query  99   FVSTI-VSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMILSIIFSIL  157
+            FV+T+  S W +    + +LW +C+ +S      C + S N WL++VQ  M+LS+I   L
+Sbjct  20   FVATLDKSWWTLPGKESLNLWYDCTWNSDNKTWACSNVSENGWLKAVQVLMVLSLILCCL  79
+
+Query  158  SLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEWHLN--SDYSYGFAY  215
+            S  LF  QL+T+ +GG FY TG  Q+   + V + A IY +   E   +  S  S+G+ +
+Sbjct  80   SFILFMFQLYTMRRGGLFYATGFCQLCTSVAVFTGALIYAIHAEEILADRPSGGSFGYCF  139
+
+Query  216  ILAWVAFPLALLSGVIYVILRKRE  239
+             LAWVAFPLAL SG+IY+ LRKRE
+Sbjct  140  ALAWVAFPLALASGIIYIHLRKRE  163
+
+
+> gi|1706644|sp|P54852.1|EMP3_HUMAN RecName: Full=Epithelial membrane 
+protein 3; Short=EMP-3; AltName: Full=Hematopoietic neural 
+membrane protein 1; Short=HNMP-1; AltName: Full=Protein 
+YMP
+Length=163
+
+ Score = 110 bits (274),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 60/149 (40%), Positives = 89/149 (60%), Gaps = 13/149 (9%)
+
+Query  99   FVSTI-VSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMILSIIFSIL  157
+            FV+T+  S W +    + +LW +C+ ++      C + S N WL++VQ  M+LS+I   L
+Sbjct  20   FVATLDKSWWTLPGKESLNLWYDCTWNNDTKTWACSNVSENGWLKAVQVLMVLSLILCCL  79
+
+Query  158  SLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTV-------RHPEWHLNSDYS  210
+            S  LF  QL+T+ +GG FY TG+ Q+   + V + A IY +       +HP        S
+Sbjct  80   SFILFMFQLYTMRRGGLFYATGLCQLCTSVAVFTGALIYAIHAEEILEKHPR-----GGS  134
+
+Query  211  YGFAYILAWVAFPLALLSGVIYVILRKRE  239
+            +G+ + LAWVAFPLAL+SG+IY+ LRKRE
+Sbjct  135  FGYCFALAWVAFPLALVSGIIYIHLRKRE  163
+
+
+> gi|2507217|sp|P47801.2|EMP1_MOUSE RecName: Full=Epithelial membrane 
+protein 1; Short=EMP-1; AltName: Full=Tumor-associated 
+membrane protein
+Length=160
+
+ Score = 101 bits (251),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 65/163 (40%), Positives = 103/163 (63%), Gaps = 7/163 (4%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGN--GHATDLWQNCSTSSSGNVHHCFSSSP  137
+            ML+LL  + V+H+A  ++LFVSTI + W+V +    +  LW+NC+    GN     S   
+Sbjct  1    MLVLLAGLFVVHIATAIMLFVSTIANVWMVADYANASVGLWKNCT---GGNCDGSLSYGN  57
+
+Query  138  NEWLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYT  197
+             + +++VQA MILSIIFSI+SL +F  QLFT+ KG RF+++G   ++  LC++   +IYT
+Sbjct  58   EDAIKAVQAFMILSIIFSIISLVVFVFQLFTMEKGNRFFLSGSTMLVCWLCILVGVSIYT  117
+
+Query  198  --VRHPEWHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKR  238
+                H E + NS    G+ +IL W+ F  + + G++Y++LRK+
+Sbjct  118  HHYAHSEGNFNSSSHQGYCFILTWICFCFSFIIGILYMVLRKK  160
+
+
+> gi|1706642|sp|P54848.1|EMP1_RAT RecName: Full=Epithelial membrane 
+protein 1; Short=EMP-1; AltName: Full=Tumor-associated 
+membrane protein
+Length=160
+
+ Score = 97.1 bits (240),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 64/163 (39%), Positives = 104/163 (64%), Gaps = 7/163 (4%)
+
+Query  80   MLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNG--HATDLWQNCSTSSSGNVHHCFSSSP  137
+            ML+LL  + V+H+A  ++LFVSTI + W+V +G   +  LW+NC+   SG+     S   
+Sbjct  1    MLVLLAGLFVVHIATAIMLFVSTIANVWMVADGIDSSIGLWKNCT---SGSCDGSLSYGN  57
+
+Query  138  NEWLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYT  197
+            ++ +++VQA MILSIIFSI+SL +F  QLFT+ KG RF+++G   ++  LC++   +IYT
+Sbjct  58   DDAIKAVQAFMILSIIFSIISLVVFVFQLFTMEKGNRFFLSGSTMLVCWLCILIGVSIYT  117
+
+Query  198  --VRHPEWHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKR  238
+                H E +       G+ +IL W+ F  + + G++Y++LRK+
+Sbjct  118  HHYAHSEGNFFPSSHQGYCFILTWICFCFSFIIGILYMVLRKK  160
+
+
+> gi|47606757|sp|Q8N6F1.2|CLD19_HUMAN RecName: Full=Claudin-19
+Length=224
+
+ Score = 47.8 bits (112),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 42/161 (26%), Positives = 70/161 (43%), Gaps = 27/161 (17%)
+
+Query  96   VLLFVSTIVSQW----------IVGNGHATDLWQNCSTSSSGNVHHCFSSSP---NEWLQ  142
+            V +  ST + QW          I   G    LW +C++ S+G V      S    +  +Q
+Sbjct  19   VGIIASTALPQWKQSSYAGDAIITAVGLYEGLWMSCASQSTGQVQCKLYDSLLALDGHIQ  78
+
+Query  143  SVQATMILSIIFSILSLFLFFCQLFTLTKG-------GRFYITG-IFQILAGLCVMSAAA  194
+            S +A M+++++   +++ L    +     G       GR  I G    ILAGLC ++A +
+Sbjct  79   SARALMVVAVLLGFVAMVLSVVGMKCTRVGDSNPIAKGRVAIAGGALFILAGLCTLTAVS  138
+
+Query  195  IYTVR------HPEWHLNSDYSYGFAYILAWVAFPLALLSG  229
+             Y         +P   +N+ Y +G A  + W +  LA+L G
+Sbjct  139  WYATLVTQEFFNPSTPVNARYEFGPALFVGWASAGLAVLGG  179
+
+
+> gi|62286467|sp|Q5QT56.1|CLD19_RAT RecName: Full=Claudin-19
+Length=224
+
+ Score = 47.4 bits (111),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 41/161 (25%), Positives = 71/161 (44%), Gaps = 27/161 (17%)
+
+Query  96   VLLFVSTIVSQW----------IVGNGHATDLWQNCSTSSSGNVHHCFSSSP---NEWLQ  142
+            V +  ST + QW          I   G    LW +C++ S+G V      S    +  +Q
+Sbjct  19   VGIIASTALPQWKQSSYAGDAIITAVGLYEGLWMSCASQSTGQVQCKLYDSLLALDGHIQ  78
+
+Query  143  SVQATMILSIIFSILSLFLFFCQL-------FTLTKGGRFYITG-IFQILAGLCVMSAAA  194
+            S +A M+++++   +++ L    +          T  GR  I+G    +LAGLC ++A +
+Sbjct  79   SARALMVVAVLLGFVAMVLSVVGMKCTRVGDSNPTAKGRVAISGGALFLLAGLCTLTAVS  138
+
+Query  195  IYTVR------HPEWHLNSDYSYGFAYILAWVAFPLALLSG  229
+             Y         +P   +N+ Y +G A  + W +  LA+L G
+Sbjct  139  WYATLVTQEFFNPSTPVNARYEFGPALFVGWASAGLAILGG  179
+
+
+> gi|6685278|sp|O88551.1|CLD1_MOUSE RecName: Full=Claudin-1
+Length=211
+
+ Score = 45.4 bits (106),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 43/160 (27%), Positives = 71/160 (44%), Gaps = 27/160 (17%)
+
+Query  99   FVSTIVSQWIV----GNGHAT------DLWQNCSTSSSGNVH-HCFSS--SPNEWLQSVQ  145
+             VST + QW +    G+   T       LW +C + S+G +    F S  + N  LQ+ +
+Sbjct  22   IVSTALPQWKIYSYAGDNIVTAQAIYEGLWMSCVSQSTGQIQCKVFDSLLNLNSTLQATR  81
+
+Query  146  ATMILSIIFSILSLFLFFCQL--------FTLTKGGRFYITGIFQILAGLCVMSAAAIYT  197
+            A M++ I+  ++++F+    +          + K     I GI  +++GL  + A A Y 
+Sbjct  82   ALMVIGILLGLIAIFVSTIGMKCMRCLEDDEVQKMWMAVIGGIIFLISGLATLVATAWYG  141
+
+Query  198  VR------HPEWHLNSDYSYGFAYILAWVAFPLALLSGVI  231
+             R       P   +N+ Y +G A    W A  L LL GV+
+Sbjct  142  NRIVQEFYDPLTPINARYEFGQALFTGWAAASLCLLGGVL  181
+
+
+> gi|47606764|sp|Q9ET38.3|CLD19_MOUSE RecName: Full=Claudin-19
+Length=224
+
+ Score = 44.7 bits (104),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 40/161 (25%), Positives = 70/161 (43%), Gaps = 27/161 (17%)
+
+Query  96   VLLFVSTIVSQW----------IVGNGHATDLWQNCSTSSSGNVHHCFSSSP---NEWLQ  142
+            V +  ST + QW          I   G    LW +C++ S+G V      S    +  +Q
+Sbjct  19   VGIIASTALPQWKQSSYAGDAIITAVGLYEGLWMSCASQSTGQVQCKLYDSLLALDGHIQ  78
+
+Query  143  SVQATMILSIIFSILSLFLFFCQL-------FTLTKGGRFYITG-IFQILAGLCVMSAAA  194
+            S +A M+++++   +++ L    +          T   R  I+G    +LAGLC ++A +
+Sbjct  79   SARALMVVAVLLGFVAMVLSVVGMKCTRVGDSNPTAKSRVAISGGALFLLAGLCTLTAVS  138
+
+Query  195  IYTVR------HPEWHLNSDYSYGFAYILAWVAFPLALLSG  229
+             Y         +P   +N+ Y +G A  + W +  LA+L G
+Sbjct  139  WYATLVTQEFFNPSTPVNARYEFGPALFVGWASAGLAMLGG  179
+
+
+> gi|62296502|sp|P56745.2|CLD1_RAT RecName: Full=Claudin-1
+Length=211
+
+ Score = 44.7 bits (104),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 42/160 (26%), Positives = 70/160 (44%), Gaps = 27/160 (17%)
+
+Query  99   FVSTIVSQWIV----GNGHAT------DLWQNCSTSSSGNVH-HCFSS--SPNEWLQSVQ  145
+             VST + QW +    G+   T       LW +C + S+G +    F S  + N  LQ+ +
+Sbjct  22   IVSTALPQWKIYSYAGDNIVTAQAIYEGLWMSCVSQSTGQIQCKVFDSLLNLNSTLQATR  81
+
+Query  146  ATMILSIIFSILSLFLFFCQL--------FTLTKGGRFYITGIFQILAGLCVMSAAAIYT  197
+            A M++ I+  ++++F+    +          + K     I GI  +++GL  + A A Y 
+Sbjct  82   ALMVIGILLGLIAIFVSTIGMKCMRCLEDDEVQKMWMAVIGGIIFVISGLATLVATAWYG  141
+
+Query  198  VR------HPEWHLNSDYSYGFAYILAWVAFPLALLSGVI  231
+             R       P   +N+ Y +G A    W A  L LL G +
+Sbjct  142  NRIVQEFYDPMTPVNARYEFGQALFTGWAAASLCLLGGAL  181
+
+
+> gi|575773376|sp|Q9Z0S6.2|CLD10_MOUSE RecName: Full=Claudin-10
+Length=231
+
+ Score = 44.7 bits (104),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 42/149 (28%), Positives = 67/149 (45%), Gaps = 17/149 (11%)
+
+Query  100  VSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHC--FSS--SPNEWLQSVQATMI----LS  151
+            VSTI    I    +  +LW+ C T S+G V +C  F S  + + ++Q+ +  MI    L 
+Sbjct  32   VSTIDGTVITTATYFANLWKICVTDSTG-VANCKEFPSMLALDGYIQACRGLMIAAVSLG  90
+
+Query  152  IIFSILSLFLFFCQLFTLTKGGRFYIT---GIFQILAGLCVMSAAAIYTVR-----HPEW  203
+               SI +LF   C     +   +  I    GI  IL+GLC M+  ++Y  +         
+Sbjct  91   FFGSIFALFGMKCTKVGGSDQAKAKIACLAGIVFILSGLCSMTGCSLYANKITTEFFDPL  150
+
+Query  204  HLNSDYSYGFAYILAWVAFPLALLSGVIY  232
+            ++   Y  G A  + W    L ++ GVI+
+Sbjct  151  YMEQKYELGAALFIGWAGASLCIIGGVIF  179
+
+
+> gi|6685311|sp|P78369.2|CLD10_HUMAN RecName: Full=Claudin-10; 
+AltName: Full=OSP-like protein
+Length=228
+
+ Score = 43.1 bits (100),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 42/149 (28%), Positives = 66/149 (44%), Gaps = 17/149 (11%)
+
+Query  100  VSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHC--FSS--SPNEWLQSVQATMI----LS  151
+            VSTI    I    +  +LW+ C T S+G V +C  F S  + + ++Q+ +  MI    L 
+Sbjct  32   VSTIDGTVITTATYWANLWKACVTDSTG-VSNCKDFPSMLALDGYIQACRGLMIAAVSLG  90
+
+Query  152  IIFSILSLFLFFCQLFTLTKGGRFYIT---GIFQILAGLCVMSAAAIYTVR-----HPEW  203
+               SI +LF   C     +   +  I    GI  IL+GLC M+  ++Y  +         
+Sbjct  91   FFGSIFALFGMKCTKVGGSDKAKAKIACLAGIVFILSGLCSMTGCSLYANKITTEFFDPL  150
+
+Query  204  HLNSDYSYGFAYILAWVAFPLALLSGVIY  232
+             +   Y  G A  + W    L ++ GVI+
+Sbjct  151  FVEQKYELGAALFIGWAGASLCIIGGVIF  179
+
+
+> gi|575773377|sp|Q5R8E5.2|CLD10_PONAB RecName: Full=Claudin-10
+Length=228
+
+ Score = 43.1 bits (100),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 42/149 (28%), Positives = 66/149 (44%), Gaps = 17/149 (11%)
+
+Query  100  VSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHC--FSS--SPNEWLQSVQATMI----LS  151
+            VSTI    I    +  +LW+ C T S+G V +C  F S  + + ++Q+ +  MI    L 
+Sbjct  32   VSTIDGTVITTATYWANLWKACVTDSTG-VSNCKDFPSMLALDGYIQACRGLMIAAVSLG  90
+
+Query  152  IIFSILSLFLFFCQLFTLTKGGRFYIT---GIFQILAGLCVMSAAAIYTVR-----HPEW  203
+               SI +LF   C     +   +  I    GI  IL+GLC M+  ++Y  +         
+Sbjct  91   FFGSIFALFGMKCTKVGGSDKAKAKIACLAGIVFILSGLCSMTGCSLYANKITTEFFDPL  150
+
+Query  204  HLNSDYSYGFAYILAWVAFPLALLSGVIY  232
+             +   Y  G A  + W    L ++ GVI+
+Sbjct  151  FVEQKYELGAALFIGWAGASLCIIGGVIF  179
+
+
+> gi|75060938|sp|Q5E9L0.1|CLD10_BOVIN RecName: Full=Claudin-10
+Length=231
+
+ Score = 42.4 bits (98),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 42/149 (28%), Positives = 65/149 (44%), Gaps = 17/149 (11%)
+
+Query  100  VSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHC--FSS--SPNEWLQSVQATMI----LS  151
+            VSTI    I    +  +LW+ C T S+G V +C  F S  + + ++Q+ +  MI    L 
+Sbjct  32   VSTIDGTVITTATYWANLWKTCVTDSTG-VSNCKDFPSMLALDGYIQACRGLMIAAVSLG  90
+
+Query  152  IIFSILSLFLFFCQLFTLTKGGRFYIT---GIFQILAGLCVMSAAAIYTVR-----HPEW  203
+               SI +L    C     +   +  I    GI  IL+GLC M+  ++Y  +         
+Sbjct  91   FFGSIFALIGMKCTKVGGSDKAKAKIACLAGIVFILSGLCSMTGCSLYANKITTEFFDPL  150
+
+Query  204  HLNSDYSYGFAYILAWVAFPLALLSGVIY  232
+             +   Y  G A  + W    L L+ GVI+
+Sbjct  151  FVEQKYELGAALFIGWAGASLCLIGGVIF  179
+
+
+> gi|68052146|sp|Q6L708.1|CLD1_BOVIN RecName: Full=Claudin-1
+Length=211
+
+ Score = 41.6 bits (96),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 38/150 (25%), Positives = 68/150 (45%), Gaps = 29/150 (19%)
+
+Query  100  VSTIVSQWIVGNGHATD-----------LWQNCSTSSSGNVH-HCFSS--SPNEWLQSVQ  145
+            VST + QW V   +A+D           LW +C + S+G +    F S  + N  LQ+ +
+Sbjct  23   VSTALPQWKV-YSYASDNIVTAQAIYEGLWMSCVSQSTGQIQCKVFDSLLNLNSTLQATR  81
+
+Query  146  ATMILSIIFSILSLFL-------FFCQLFTLTKGGRFYI-TGIFQILAGLCVMSAAAIYT  197
+            A M++ I+  ++++F+         C      +  R  +  G+  +++GL ++ A A Y 
+Sbjct  82   ALMVIGILLGLIAIFVATVGMKCMKCMEDDEAQKMRMAVFGGVIFLISGLAILVATAWYG  141
+
+Query  198  VR------HPEWHLNSDYSYGFAYILAWVA  221
+             R       P   +N+ Y +G A  + W A
+Sbjct  142  NRIVQEFYDPMTPVNARYEFGQALFIGWAA  171
+
+
+> gi|109821728|sp|Q2KIY2.1|CLD15_BOVIN RecName: Full=Claudin-15
+Length=235
+
+ Score = 42.0 bits (97),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 53/166 (32%), Positives = 76/166 (46%), Gaps = 22/166 (13%)
+
+Query  82   LLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHC--FSS--SP  137
+            LL+L + + H +      VST+    I  N    +LW +C+T S G VH+C  F S  + 
+Sbjct  17   LLMLGVTLAHSS----WRVSTVHGNVITTNTIFENLWYSCATDSMG-VHNCWEFPSMLAL  71
+
+Query  138  NEWLQSVQATMILSIIFSILSLFLFFCQLFTLTKGG-------RFYIT-GIFQILAGLCV  189
+            + ++Q+ +A MI +I+   L LFL    L     GG       +   T G   ILAG+C 
+Sbjct  72   SGYIQACRALMITAILLGFLGLFLGMVGLRCTNIGGLELSRKTKLAATAGALHILAGICG  131
+
+Query  190  MSAAAIYTVRHPEWHLN-----SDYSYGFAYILAWVAFPLALLSGV  230
+            M A + Y         N     + Y  G A  L W A  LA+L G+
+Sbjct  132  MVAVSWYAFNITRDFFNPLYAGTKYELGPALYLGWSACLLAILGGI  177
+
+
+> gi|939108067|sp|A8MUP6.3|GS1L2_HUMAN RecName: Full=Germ cell-specific 
+gene 1-like protein 2; Short=GSG1-like protein 2
+Length=293
+
+ Score = 41.6 bits (96),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 42/154 (27%), Positives = 59/154 (38%), Gaps = 29/154 (19%)
+
+Query  96   VLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSSS---PNEWLQSVQATMILSI  152
+             +L++  +     +  G    LWQ+C  S +G    C S     P E     Q  + LSI
+Sbjct  71   AVLYIWELGDDKFIQRGFHVGLWQSCEESLNGEDEKCRSFRSVVPAE----EQGVLWLSI  126
+
+Query  153  IFSILSLFLFFCQLFTLTKGGRF-------------YITGIFQILAGLCVMSAAAIYTV-  198
+               +L + L       L  G R               +  IF +LAGL  M A  +YT  
+Sbjct  127  GGEVLDIVLILTSAILL--GSRVSCRSPGFHWLRVDALVAIFMVLAGLLGMVAHMMYTTI  184
+
+Query  199  ------RHPEWHLNSDYSYGFAYILAWVAFPLAL  226
+                    PE      + YG++Y LAW +F L L
+Sbjct  185  FQITVNLGPEDWKPQTWDYGWSYCLAWGSFALCL  218
+
+
+> gi|20532401|sp|P56563.2|LMIP_MOUSE RecName: Full=Lens fiber membrane 
+intrinsic protein; AltName: Full=MP17; AltName: Full=MP18; 
+AltName: Full=MP19; AltName: Full=MP20
+Length=173
+
+ Score = 40.4 bits (93),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 44/152 (29%), Positives = 69/152 (45%), Gaps = 24/152 (16%)
+
+Query  96   VLLFVSTIVSQW----IVGNGHATDLWQNCSTSSSGNVHHCFSSSPN-EWLQSVQATMIL  150
+            +LL V+T    W    + G+     LW+ C     GN   CF  + +  +  + +A MIL
+Sbjct  17   ILLVVATATDHWMQYRLSGSFAHQGLWRYCL----GN--KCFLQTESIAYWNATRAFMIL  70
+
+Query  151  S-------IIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEW  203
+            S       II  +L+    F Q  T T+  R +  GI    + L V+ A AIYT     +
+Sbjct  71   SALCATSGIIMGVLA----FAQQSTFTRLSRPFSAGIMFFASTLFVLLALAIYTGVTVSF  126
+
+Query  204  --HLNSDYSYGFAYILAWVAFPLALLSGVIYV  233
+                  D+ + ++YIL WVA  +   +G+ Y+
+Sbjct  127  LGRRFGDWRFSWSYILGWVALLMTFFAGIFYM  158
+
+
+> gi|1708853|sp|P54825.1|LMIP_RAT RecName: Full=Lens fiber membrane 
+intrinsic protein; AltName: Full=MP17; AltName: Full=MP18; 
+AltName: Full=MP19; AltName: Full=MP20
+Length=173
+
+ Score = 40.4 bits (93),  Expect = 0.013, Method: Compositional matrix adjust.
+ Identities = 44/152 (29%), Positives = 69/152 (45%), Gaps = 24/152 (16%)
+
+Query  96   VLLFVSTIVSQW----IVGNGHATDLWQNCSTSSSGNVHHCFSSSPN-EWLQSVQATMIL  150
+            +LL V+T    W    + G+     LW+ C     GN   CF  + +  +  + +A MIL
+Sbjct  17   ILLVVATATDHWMQYRLSGSFAHQGLWRYCL----GN--KCFLQTESIAYWNATRAFMIL  70
+
+Query  151  S-------IIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEW  203
+            S       II  +L+    F Q  T T+  R +  GI    + L V+ A AIYT     +
+Sbjct  71   SALCATSGIIMGVLA----FAQQSTFTRLSRPFSAGIMFFASTLFVLLALAIYTGVTVSF  126
+
+Query  204  --HLNSDYSYGFAYILAWVAFPLALLSGVIYV  233
+                  D+ + ++YIL WVA  +   +G+ Y+
+Sbjct  127  LGRRFGDWRFSWSYILGWVALLMTFFAGIFYM  158
+
+
+> gi|6685283|sp|O95832.1|CLD1_HUMAN RecName: Full=Claudin-1; AltName: 
+Full=Senescence-associated epithelial membrane protein
+Length=211
+
+ Score = 40.4 bits (93),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 37/149 (25%), Positives = 61/149 (41%), Gaps = 27/149 (18%)
+
+Query  100  VSTIVSQW----------IVGNGHATDLWQNCSTSSSGNVH-HCFSSSPN--EWLQSVQA  146
+            VST + QW          +        LW +C + S+G +    F S  N    LQ+ +A
+Sbjct  23   VSTALPQWRIYSYAGDNIVTAQAMYEGLWMSCVSQSTGQIQCKVFDSLLNLSSTLQATRA  82
+
+Query  147  TMILSIIFSILSLFLFFCQL--------FTLTKGGRFYITGIFQILAGLCVMSAAAIYTV  198
+             M++ I+  ++++F+    +          + K     I G   +LAGL ++ A A Y  
+Sbjct  83   LMVVGILLGVIAIFVATVGMKCMKCLEDDEVQKMRMAVIGGAIFLLAGLAILVATAWYGN  142
+
+Query  199  R------HPEWHLNSDYSYGFAYILAWVA  221
+            R       P   +N+ Y +G A    W A
+Sbjct  143  RIVQEFYDPMTPVNARYEFGQALFTGWAA  171
+
+
+> gi|122142426|sp|Q0VCN0.1|CLD18_BOVIN RecName: Full=Claudin-18
+Length=261
+
+ Score = 40.4 bits (93),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 42/147 (29%), Positives = 64/147 (44%), Gaps = 30/147 (20%)
+
+Query  117  LWQNCSTSSSGNVH---HCFSSSPNEWLQSVQATMILSIIFSILSLFLFFCQL-------  166
+            LW++C   SSG      +         LQ+V+A MI+ I+ S++ L +    L       
+Sbjct  49   LWRSCVQQSSGFTECRPYLTILGLPAMLQAVRALMIVGIVLSVIGLLVAIFALKCIRMGN  108
+
+Query  167  --------FTLTKGGRFYITGIFQILAGLCV----------MSAAAIYTVRHPEWH-LNS  207
+                     TLT G  F I G+  I AG+ V          MS A+++T        + +
+Sbjct  109  MDDSAKAKMTLTSGIMFIIAGLCAI-AGVSVFANMLVTNFWMSTASMFTSMGGMVQTVQT  167
+
+Query  208  DYSYGFAYILAWVAFPLALLSGVIYVI  234
+             Y++G A  + WVA  L L+ GV+  I
+Sbjct  168  RYTFGAALFVGWVAGGLTLIGGVLMCI  194
+
+
+> gi|667467024|sp|D3ZQJ0.1|CLD15_RAT RecName: Full=Claudin-15
+Length=227
+
+ Score = 38.9 bits (89),  Expect = 0.061, Method: Compositional matrix adjust.
+ Identities = 45/148 (30%), Positives = 68/148 (46%), Gaps = 18/148 (12%)
+
+Query  100  VSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSS----SPNEWLQSVQATMILSIIFS  155
+            VST+    I  N    +LW +C+T S G V +C+      + + ++Q  +A MI +I+  
+Sbjct  31   VSTVHGNVITTNTIFENLWYSCATDSLG-VSNCWDFPSMLALSGYVQGCRALMITAILLG  89
+
+Query  156  ILSLFLFFCQL-------FTLTKGGRFY-ITGIFQILAGLCVMSAAAIYTVR-----HPE  202
+             L LFL    L         L++  +   I G F ILAG C M A + Y V         
+Sbjct  90   FLGLFLGMVGLRCTNVGNIDLSRKAKLLAIAGAFHILAGACGMVAISWYAVNITTDFFNP  149
+
+Query  203  WHLNSDYSYGFAYILAWVAFPLALLSGV  230
+             ++ + Y  G A  L W A  L++L G+
+Sbjct  150  LYVGTKYELGSALYLGWSASLLSILGGI  177
+
+
+> gi|311033475|sp|O95471.4|CLD7_HUMAN RecName: Full=Claudin-7; 
+Short=CLDN-7
+Length=211
+
+ Score = 37.7 bits (86),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 39/163 (24%), Positives = 63/163 (39%), Gaps = 27/163 (17%)
+
+Query  96   VLLFVSTIVSQW----------IVGNGHATDLWQNCSTSSSGNVHHCFSSSP---NEWLQ  142
+            V L   T + QW          I        LW +C T S+G +      S    +  LQ
+Sbjct  19   VGLVACTAIPQWQMSSYAGDNIITAQAMYKGLWMDCVTQSTGMMSCKMYDSVLALSAALQ  78
+
+Query  143  SVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYIT--------GIFQILAGLCVMSAAA  194
+            + +A M++S++   L++F+    +     GG   +         GI  I+AGL  + A +
+Sbjct  79   ATRALMVVSLVLGFLAMFVATMGMKCTRCGGDDKVKKARIAMGGGIIFIVAGLAALVACS  138
+
+Query  195  IY------TVRHPEWHLNSDYSYGFAYILAWVAFPLALLSGVI  231
+             Y         +P    N  Y +G A  + W    L +L G +
+Sbjct  139  WYGHQIVTDFYNPLIPTNIKYEFGPAIFIGWAGSALVILGGAL  181
+
+
+> gi|6685292|sp|Q9Z261.1|CLD7_MOUSE RecName: Full=Claudin-7
+Length=211
+
+ Score = 37.7 bits (86),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 41/167 (25%), Positives = 68/167 (41%), Gaps = 31/167 (19%)
+
+Query  85   LSIIVLHVAVL--VLLFVSTIVSQW----------IVGNGHATDLWQNCSTSSSG----N  128
+            L ++   +A+L  V L  ST + QW          I        LW  C T S+G     
+Sbjct  6    LQLLGFSMAMLGWVGLIASTAIPQWQMSSYAGDNIITAQAMYKGLWMECVTQSTGMMSCK  65
+
+Query  129  VHHCFSSSPNEWLQSVQATMILSIIFSILSLFLFF-------CQLFTLTKGGRFYIT-GI  180
+            ++    + P   LQ+ +A M++S++   L++F+         C      K  R  +T GI
+Sbjct  66   MYDSVLALPGA-LQATRALMVVSLVLGFLAMFVATMGMKCTRCGGDDKAKKARIAMTGGI  124
+
+Query  181  FQILAGLCVMSAAA------IYTVRHPEWHLNSDYSYGFAYILAWVA  221
+              I+AGL  + A +      +    +P   +N  Y +G A  + W  
+Sbjct  125  VFIVAGLAALVACSWIGHQIVTDFYNPLTPMNVKYEFGPAIFIGWAG  171
+
+
+> gi|20532392|sp|Q9Z0S5.2|CLD15_MOUSE RecName: Full=Claudin-15
+Length=227
+
+ Score = 37.4 bits (85),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 46/148 (31%), Positives = 66/148 (45%), Gaps = 18/148 (12%)
+
+Query  100  VSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCFSS----SPNEWLQSVQATMILSIIFS  155
+            VST+    I  N    +LW +C+T S G V +C+      + + ++Q  +A MI +I+  
+Sbjct  31   VSTVHGNVITTNTIFENLWYSCATDSLG-VSNCWDFPSMLALSGYVQGCRALMITAILLG  89
+
+Query  156  ILSLFLFFCQL-------FTLTKGGRFY-ITGIFQILAGLCVMSAAAIYTVRHPEWHLN-  206
+             L LFL    L         L+K  +   I G   ILAG C M A + Y V       N 
+Sbjct  90   FLGLFLGMVGLRCTNVGNMDLSKKAKLLAIAGTLHILAGACGMVAISWYAVNITTDFFNP  149
+
+Query  207  ----SDYSYGFAYILAWVAFPLALLSGV  230
+                + Y  G A  L W A  L++L G+
+Sbjct  150  LYAGTKYELGPALYLGWSASLLSILGGI  177
+
+
+> gi|109821733|sp|Q3B7N4.1|CLD7_BOVIN RecName: Full=Claudin-7
+Length=211
+
+ Score = 37.4 bits (85),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 40/154 (26%), Positives = 61/154 (40%), Gaps = 29/154 (19%)
+
+Query  96   VLLFVSTIVSQW----------IVGNGHATDLWQNCSTSSSG----NVHHCFSSSPNEWL  141
+            V L   T + QW          I        LW +C T S+G     ++    S P   L
+Sbjct  19   VGLVACTAIPQWQMSSYAGDNIITAQAMYKGLWMDCVTQSTGMMSCKMYDSVLSLPAA-L  77
+
+Query  142  QSVQATMILSIIFSILSLFLFFCQLFTLTKGG-------RFYIT-GIFQILAGLCVMSAA  193
+            Q+ +A M++S++   L+ F+    +     GG       R  +T GI  ILAGL  + A 
+Sbjct  78   QATRALMVVSLVLGFLATFVATMGMKCTNCGGDDKVKKARIAMTGGIIFILAGLAALIAC  137
+
+Query  194  AIY------TVRHPEWHLNSDYSYGFAYILAWVA  221
+            + Y         +P   +N  Y +G A  + W  
+Sbjct  138  SWYGHQIVSDFYNPLVPMNVKYEFGPAIFIGWAG  171
+
+
+> gi|7387578|sp|P56856.1|CLD18_HUMAN RecName: Full=Claudin-18
+Length=261
+
+ Score = 37.4 bits (85),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 42/148 (28%), Positives = 64/148 (43%), Gaps = 32/148 (22%)
+
+Query  117  LWQNCSTSSSG----NVHHCFSSSPNEWLQSVQATMILSIIFSILSLFLFFCQL------  166
+            LW++C   SSG      +      P   LQ+V+A MI+ I+   + L +    L      
+Sbjct  49   LWRSCVRQSSGFTECRPYFTILGLP-AMLQAVRALMIVGIVLGAIGLLVSIFALKCIRIG  107
+
+Query  167  ---------FTLTKGGRFYITGIFQILAGLCV----------MSAAAIYT-VRHPEWHLN  206
+                      TLT G  F ++G+  I AG+ V          MS A +YT +      + 
+Sbjct  108  SMEDSAKANMTLTSGIMFIVSGLCAI-AGVSVFANMLVTNFWMSTANMYTGMGGMVQTVQ  166
+
+Query  207  SDYSYGFAYILAWVAFPLALLSGVIYVI  234
+            + Y++G A  + WVA  L L+ GV+  I
+Sbjct  167  TRYTFGAALFVGWVAGGLTLIGGVMMCI  194
+
+
+> gi|7387579|sp|P56857.1|CLD18_MOUSE RecName: Full=Claudin-18
+Length=264
+
+ Score = 37.0 bits (84),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 43/151 (28%), Positives = 65/151 (43%), Gaps = 35/151 (23%)
+
+Query  117  LWQNCSTSSSG----NVHHCFSSSPNEWLQSVQATMILSIIFSIL----SLFLFFC----  164
+            LW++C   SSG      +      P   LQ+V+A MI+ I+  ++    S+F   C    
+Sbjct  49   LWRSCVQQSSGFTECRPYFTILGLP-AMLQAVRALMIVGIVLGVIGILVSIFALKCIRIG  107
+
+Query  165  -------QLFTLTKGGRFYITGIFQILAGLCV----------MSAAAIYTVRHPEWH---  204
+                      TLT G  F I+GI  I+ G+ V          MS A +Y+          
+Sbjct  108  SMDDSAKAKMTLTSGILFIISGICAII-GVSVFANMLVTNFWMSTANMYSGMGGMGGMVQ  166
+
+Query  205  -LNSDYSYGFAYILAWVAFPLALLSGVIYVI  234
+             + + Y++G A  + WVA  L L+ GV+  I
+Sbjct  167  TVQTRYTFGAALFVGWVAGGLTLIGGVMMCI  197
+
+
+> gi|2495903|sp|Q57756.1|Y308_METJA RecName: Full=Uncharacterized 
+protein MJ0308
+Length=233
+
+ Score = 36.2 bits (82),  Expect = 0.45, Method: Compositional matrix adjust.
+ Identities = 29/88 (33%), Positives = 39/88 (44%), Gaps = 6/88 (7%)
+
+Query  151  SIIFSILSLF-LFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEWHLNSDY  209
+            SI+F    L+ L   Q     KGGRF     F  +  LC  + AA+YT + P   L  + 
+Sbjct  137  SIVFIGEPLYALRLVQAILYHKGGRF--QADFSGIQSLCADAVAAVYTRKAPNMTLGCNG  194
+
+Query  210  SYGFAYILAW---VAFPLALLSGVIYVI  234
+            S  +A I      VAFP   L  ++  I
+Sbjct  195  SRKYAGIKPEEVVVAFPPEKLKDIVEAI  222
+
+
+> gi|1708852|sp|P20274.2|LMIP_BOVIN RecName: Full=Lens fiber membrane 
+intrinsic protein; AltName: Full=MP18; AltName: Full=MP19; 
+AltName: Full=MP20; AltName: Full=MP21; AltName: Full=MP23
+Length=173
+
+ Score = 35.8 bits (81),  Expect = 0.46, Method: Compositional matrix adjust.
+ Identities = 42/151 (28%), Positives = 65/151 (43%), Gaps = 22/151 (15%)
+
+Query  96   VLLFVSTIVSQW----IVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMILS  151
+            +LL V+T    W    + G      LW+ C     G   +  + S   W  + +A MILS
+Sbjct  17   ILLVVATATDHWMQYRLSGAFAHQGLWRYCL----GTKCYLQTESIAYW-NATRAFMILS  71
+
+Query  152  -------IIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEW-  203
+                   II  I++    F Q  T T+  R +  GI    +   V+ A AIYT     + 
+Sbjct  72   SLCATSGIIMGIVA----FAQQPTFTRLSRPFSAGIMFFASTFFVLLALAIYTGVTVSFL  127
+
+Query  204  -HLNSDYSYGFAYILAWVAFPLALLSGVIYV  233
+                 D+ + ++YIL WVA  +   +G+ Y+
+Sbjct  128  GRRFGDWRFSWSYILGWVALLMTFFAGIFYM  158
+
+
+> gi|62296530|sp|Q9Z1L1.2|CLD7_RAT RecName: Full=Claudin-7
+Length=211
+
+ Score = 35.4 bits (80),  Expect = 0.87, Method: Compositional matrix adjust.
+ Identities = 41/167 (25%), Positives = 67/167 (40%), Gaps = 31/167 (19%)
+
+Query  85   LSIIVLHVAVL--VLLFVSTIVSQW----------IVGNGHATDLWQNCSTSSSG----N  128
+            L ++   +A+L  V L  ST + QW          I        LW  C T S+G     
+Sbjct  6    LQLLGFSMAMLGWVGLIASTAIPQWQMSSYAGDNIITAQAMYKGLWMECVTQSTGMMSCK  65
+
+Query  129  VHHCFSSSPNEWLQSVQATMILSIIFSILSLFLFF-------CQLFTLTKGGRFYIT-GI  180
+            ++    + P    Q+ +A MI+S++   L++F+         C      K  R  +T GI
+Sbjct  66   MYDSVLALPAA-TQATRALMIVSLVLGFLAMFVATMGMKCTRCGGDDKVKKARIAMTGGI  124
+
+Query  181  FQILAGLCVMSAAA------IYTVRHPEWHLNSDYSYGFAYILAWVA  221
+              I+AGL  + A +      +    +P   +N  Y +G A  + W  
+Sbjct  125  IFIVAGLAALVACSWIGHQIVTDFYNPLTPMNIKYEFGPAIFIGWAG  171
+
+
+> gi|17433717|sp|P55344.2|LMIP_HUMAN RecName: Full=Lens fiber membrane 
+intrinsic protein; AltName: Full=MP18; AltName: Full=MP19; 
+AltName: Full=MP20
+Length=173
+
+ Score = 33.9 bits (76),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 39/147 (27%), Positives = 66/147 (45%), Gaps = 14/147 (10%)
+
+Query  96   VLLFVSTIVSQW----IVGNGHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSVQATMILS  151
+            +LL V+     W    + G+     LW+ C     GN  +  + S   W  + +A MILS
+Sbjct  17   ILLVVAMATDHWMQYRLSGSFAHQGLWRYCL----GNKCYLQTDSIAYW-NATRAFMILS  71
+
+Query  152  IIFSILSLFL---FFCQLFTLTKGGRFYITGIFQILAGLCVMSAAAIYTVRHPEW--HLN  206
+             + +I  + +    F    T ++  R +  GI    + L V+ A AIYT     +     
+Sbjct  72   ALCAISGIIMGIMAFAHQPTFSRISRPFSAGIMFFSSTLFVVLALAIYTGVTVSFLGRRF  131
+
+Query  207  SDYSYGFAYILAWVAFPLALLSGVIYV  233
+             D+ + ++YIL WVA  +   +G+ Y+
+Sbjct  132  GDWRFSWSYILGWVAVLMTFFAGIFYM  158
+
+
+> gi|20532011|sp|Q8VHW8.1|CCG5_RAT RecName: Full=Voltage-dependent 
+calcium channel gamma-5 subunit; AltName: Full=Neuronal 
+voltage-gated calcium channel gamma-5 subunit; AltName: Full=Transmembrane 
+AMPAR regulatory protein gamma-5; Short=TARP 
+gamma-5
+Length=275
+
+ Score = 34.3 bits (77),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 33/129 (26%), Positives = 58/129 (45%), Gaps = 22/129 (17%)
+
+Query  138  NEWLQSVQATMILSII-----FSILSLFLFFCQLFTLTKGGRF--------YITGIFQIL  184
+            N  + S     +L +I     F ++SLF  F   F L+  G          +++GIF IL
+Sbjct  82   NSQMTSESTVNVLKMIRSATPFPLVSLFFMFIG-FILSNIGHIRPHRTILAFVSGIFFIL  140
+
+Query  185  AGLCVMSAAAIYTVRHPEWHLNS--------DYSYGFAYILAWVAFPLALLSGVIYVILR  236
+            +GL ++    +Y     +  LN         +Y YG+++  A ++F L   +GV+ V L 
+Sbjct  141  SGLSLVVGLVLYISSINDEMLNRTKDAETYFNYKYGWSFAFAAISFLLTESAGVMSVYLF  200
+
+Query  237  KRE*GAQTV  245
+             +   A+ +
+Sbjct  201  MKRYTAEDM  209
+
+
+> gi|20532016|sp|Q8VHW4.1|CCG5_MOUSE RecName: Full=Voltage-dependent 
+calcium channel gamma-5 subunit; AltName: Full=Neuronal 
+voltage-gated calcium channel gamma-5 subunit; AltName: Full=Transmembrane 
+AMPAR regulatory protein gamma-5; Short=TARP 
+gamma-5
+Length=275
+
+ Score = 34.3 bits (77),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 33/129 (26%), Positives = 58/129 (45%), Gaps = 22/129 (17%)
+
+Query  138  NEWLQSVQATMILSII-----FSILSLFLFFCQLFTLTKGGRF--------YITGIFQIL  184
+            N  + S     +L +I     F ++SLF  F   F L+  G          +++GIF IL
+Sbjct  82   NSQMTSESTVNVLKMIRSATPFPLVSLFFMFIG-FILSNIGHIRPHRTILAFVSGIFFIL  140
+
+Query  185  AGLCVMSAAAIYTVRHPEWHLNS--------DYSYGFAYILAWVAFPLALLSGVIYVILR  236
+            +GL ++    +Y     +  LN         +Y YG+++  A ++F L   +GV+ V L 
+Sbjct  141  SGLSLVVGLVLYISSINDEMLNRTKDAETYFNYKYGWSFAFAAISFLLTESAGVMSVYLF  200
+
+Query  237  KRE*GAQTV  245
+             +   A+ +
+Sbjct  201  MKRYTAEDM  209
+
+
+> gi|20532390|sp|Q9UF02.2|CCG5_HUMAN RecName: Full=Voltage-dependent 
+calcium channel gamma-5 subunit; AltName: Full=Neuronal 
+voltage-gated calcium channel gamma-5 subunit; AltName: Full=Transmembrane 
+AMPAR regulatory protein gamma-5; Short=TARP 
+gamma-5
+Length=275
+
+ Score = 34.3 bits (77),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 34/129 (26%), Positives = 57/129 (44%), Gaps = 22/129 (17%)
+
+Query  138  NEWLQSVQATMILSII-----FSILSLFLFFCQLFTLTKGGRF--------YITGIFQIL  184
+            N  L S     +L +I     F ++SLF  F   F L   G          +++GIF IL
+Sbjct  82   NTQLTSESTVNVLKMIRSATPFPLVSLFFMFIG-FILNNIGHIRPHRTILAFVSGIFFIL  140
+
+Query  185  AGLCVMSAAAIYTVRHPEWHLNS--------DYSYGFAYILAWVAFPLALLSGVIYVILR  236
+            +GL ++    +Y     +  LN         +Y YG+++  A ++F L   +GV+ V L 
+Sbjct  141  SGLSLVVGLVLYISSINDEMLNRTKDAETYFNYKYGWSFAFAAISFLLTESAGVMSVYLF  200
+
+Query  237  KRE*GAQTV  245
+             +   A+ +
+Sbjct  201  MKRYTAEDM  209
+
+
+> gi|20532020|sp|Q9CQX5.1|CLDN1_MOUSE RecName: Full=Claudin domain-containing 
+protein 1; AltName: Full=Claudin-25
+Length=253
+
+ Score = 33.9 bits (76),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 19/62 (31%), Positives = 35/62 (56%), Gaps = 6/62 (10%)
+
+Query  178  TGIFQILAGLCVMSAAAIYT----VRHPEWHLNSDYS--YGFAYILAWVAFPLALLSGVI  231
+            TGI  +LAGLC + + + Y     + H +  L  D S  +G+++ LA V+ PL  ++  +
+Sbjct  173  TGILHLLAGLCTLGSVSCYVAGIELLHQKVELPKDVSGEFGWSFCLACVSAPLQFMAAAL  232
+
+Query  232  YV  233
+            ++
+Sbjct  233  FI  234
+
+
+> gi|93204562|sp|Q2I3G8.1|COX3_ELEMA RecName: Full=Cytochrome c 
+oxidase subunit 3; AltName: Full=Cytochrome c oxidase polypeptide 
+III
+Length=261
+
+ Score = 33.1 bits (74),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 22/87 (25%), Positives = 44/87 (51%), Gaps = 3/87 (3%)
+
+Query  130  HHCFSSSPNEWLQSVQATMILSIIFSILSLFLFFCQLFTLTKG---GRFYITGIFQILAG  186
+            H     S    LQ++  T++L + F++L +F ++   FT++ G     F++T  F  L  
+Sbjct  149  HSLMEGSRKNMLQALLITILLGVYFTLLQMFEYYEASFTISDGIYGSTFFVTTGFHGLHV  208
+
+Query  187  LCVMSAAAIYTVRHPEWHLNSDYSYGF  213
+            +   +   I  +R  ++H  S++ +GF
+Sbjct  209  IIGSTFLLICFIRQLKFHFTSNHHFGF  235
+
+
+> gi|82209772|sp|Q7ZXS7.1|CXG1_XENLA RecName: Full=Gap junction 
+gamma-1 protein; AltName: Full=Gap junction alpha-7 protein
+Length=377
+
+ Score = 33.5 bits (75),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 29/91 (32%), Positives = 43/91 (47%), Gaps = 12/91 (13%)
+
+Query  89   VLHVAVLVLLFVSTIVSQWIVGN----GHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSV  144
+            ++ V VL LLF S     +++G     G     +  CS +   +   CF S P E     
+Sbjct  172  LMKVYVLQLLFRSVFEVGFLMGQYVLYGFEVIPFFVCSRNPCPHTVDCFVSRPTE-----  226
+
+Query  145  QATMILSIIFSI--LSLFLFFCQLFTLTKGG  173
+              T+ L I++++  L LFL  C+LF L  GG
+Sbjct  227  -KTIFLLIMYAVSALCLFLNLCELFHLGIGG  256
+
+
+> gi|82202284|sp|Q6NZH5.1|CXG1_XENTR RecName: Full=Gap junction 
+gamma-1 protein; AltName: Full=Gap junction alpha-7 protein
+Length=377
+
+ Score = 33.1 bits (74),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 29/91 (32%), Positives = 42/91 (46%), Gaps = 12/91 (13%)
+
+Query  89   VLHVAVLVLLFVSTIVSQWIVGN----GHATDLWQNCSTSSSGNVHHCFSSSPNEWLQSV  144
+            ++ V VL LLF S     +++G     G     +  CS     +   CF S P E     
+Sbjct  172  LMKVYVLQLLFRSVFEVGFLMGQYILYGFEVIPFFVCSRKPCPHTVDCFVSRPTE-----  226
+
+Query  145  QATMILSIIFSI--LSLFLFFCQLFTLTKGG  173
+              T+ L I++++  L LFL  C+LF L  GG
+Sbjct  227  -KTIFLLIMYAVSALCLFLNLCELFHLGIGG  256
+
+
+> gi|20532022|sp|Q9NY35.1|CLDN1_HUMAN RecName: Full=Claudin domain-containing 
+protein 1; AltName: Full=Membrane protein GENX-3745 
+gi|75061980|sp|Q5RDV7.1|CLDN1_PONAB RecName: Full=Claudin 
+domain-containing protein 1
+Length=253
+
+ Score = 32.7 bits (73),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 35/62 (56%), Gaps = 6/62 (10%)
+
+Query  178  TGIFQILAGLCVMSAAAIYT----VRHPEWHLNSDYS--YGFAYILAWVAFPLALLSGVI  231
+            TGI  +LAGLC + + + Y     + H +  L  + S  +G+++ LA V+ PL  ++  +
+Sbjct  173  TGILHLLAGLCTLGSVSCYVAGIELLHQKLELPDNVSGEFGWSFCLACVSAPLQFMASAL  232
+
+Query  232  YV  233
+            ++
+Sbjct  233  FI  234
+
+
+> gi|81743556|sp|Q8DKZ3.1|NDHL_THEEB RecName: Full=NAD(P)H-quinone 
+oxidoreductase subunit L; AltName: Full=NAD(P)H dehydrogenase 
+I subunit L; AltName: Full=NDH-1 subunit L; AltName: Full=NDH-L
+Length=76
+
+ Score = 30.4 bits (67),  Expect = 8.5, Method: Composition-based stats.
+ Identities = 17/52 (33%), Positives = 26/52 (50%), Gaps = 1/52 (2%)
+
+Query  177  ITGIFQILAGLCVMSAAAI-YTVRHPEWHLNSDYSYGFAYILAWVAFPLALL  227
+            + G++  LAGL ++   AI Y   +  W++ S +   F Y L    FP  LL
+Sbjct  9    VLGVYGALAGLYLLVVPAIVYAYLNARWYVASSFERAFMYFLVTFFFPGLLL  60
+
+
+> gi|6685272|sp|O14493.1|CLD4_HUMAN RecName: Full=Claudin-4; AltName: 
+Full=Clostridium perfringens enterotoxin receptor; Short=CPE-R; 
+Short=CPE-receptor; AltName: Full=Williams-Beuren 
+syndrome chromosomal region 8 protein
+Length=209
+
+ Score = 32.3 bits (72),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 25/85 (29%), Positives = 39/85 (46%), Gaps = 12/85 (14%)
+
+Query  117  LWQNCSTSSSGN----VHHCFSSSPNEWLQSVQATMILSIIFSILSLFLFF-------CQ  165
+            LW NC   S+G     V+    + P + LQ+ +A +I+SII + L + L         C 
+Sbjct  50   LWMNCVVQSTGQMQCKVYDSLLALPQD-LQAARALVIISIIVAALGVLLSVVGGKCTNCL  108
+
+Query  166  LFTLTKGGRFYITGIFQILAGLCVM  190
+                 K     + G+  +LAGL V+
+Sbjct  109  EDESAKAKTMIVAGVVFLLAGLMVI  133
+
+
+> gi|6685274|sp|O19005.1|CLD4_CHLAE RecName: Full=Claudin-4; AltName: 
+Full=Clostridium perfringens enterotoxin receptor; Short=CPE-R; 
+Short=CPE-receptor
+Length=209
+
+ Score = 32.0 bits (71),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 25/85 (29%), Positives = 39/85 (46%), Gaps = 12/85 (14%)
+
+Query  117  LWQNCSTSSSGN----VHHCFSSSPNEWLQSVQATMILSIIFSILSLFLFF-------CQ  165
+            LW NC   S+G     V+    + P + LQ+ +A +I+SII + L + L         C 
+Sbjct  50   LWMNCVVQSTGQMQCKVYDSLLALPQD-LQAARALVIISIIVAALGVLLSVVGGKCTNCL  108
+
+Query  166  LFTLTKGGRFYITGIFQILAGLCVM  190
+                 K     + G+  +LAGL V+
+Sbjct  109  EDESAKAKTMIVAGVVFLLAGLLVI  133
+
+
+
+Lambda      K        H        a         alpha
+   0.347    0.151    0.528    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 58200584624
+
+
+  Database: ../../swissprot
+    Posted date:  Jun 17, 2016  11:46 PM
+  Number of letters in database: 174,163,246
+  Number of sequences in database:  463,898
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -21,7 +21,7 @@ while($fromStr < length($fastaSeq)){
     $fromStr = $fromStr + length($temp);
 }
 
-print $formattedFastaSeq;
+print $fh $formattedFastaSeq;
 
 my $seq_obj = Bio::Seq->new(
     -seq => $formattedFastaSeq,
