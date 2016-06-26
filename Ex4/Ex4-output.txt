@@ -1,0 +1,202 @@
+>NM_000304.3_1 [6 - 89] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+TGKTPGLASVTGSTTREHLGEPGWKLQA
+>NM_000304.3_2 [1 - 111] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+NKLERRLVWLQLQGAPPGNISGSLVGSCRLSLSAAGL
+>NM_000304.3_3 [2 - 139] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+INWKDAWSGFSYREHHQGTSRGAWLEAAGLVCRLRVSDCPVGRVLP
+>NM_000304.3_4 [143 - 217] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+HPLHLAAKKSAWKKGLRCLAGQKLR
+>NM_000304.3_5 [93 - 254] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SVGCGSLTALWGGSCLNIPCIWLQRNLLGRRGYAVWPGRNSAEQNLPPECSSCC
+>NM_000304.3_6 [115 - 345] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+LPCGEGLALTSLAFGCKEICLEEGVTLFGRAETPLSRTCRQNAPPVAEYHRPPRRGAGAA
+VRLHDRQPMDRGQWTRN
+>NM_000304.3_7 [258 - 443] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+VSSSSTSRCWCCCSSPRSSANGSWAMDTQLISGRTVAPLPQEMSTTVSHHHQTNGCSLSR
+PP
+>NM_000304.3_8 [447 - 566] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SCRSSSAFCLCSCSSANSSPSPRGAGFTSLESSKFLLVCA
+>NM_000304.3_9 [597 - 698] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+GTRSGISTRITPTVSPTSWPGWPSPWPFSAVSSM
+>NM_000304.3_10 [221 - 718] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+AELAARMLLLLLSIIVLHVAVLVLLFVSTIVSQWIVGNGHATDLWQNCSTSSSGNVHHCF
+SSSPNEWLQSVQATMILSIIFSILSLFLFFCQLFTLTKGGRFYITGIFQILAGLCVMSAA
+AIYTVRHPEWHLNSDYSYGFAYILAWVAFPLALLSGVIYVILRKRE
+>NM_000304.3_11 [702 - 740] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SCGNANEAPRRSV
+>NM_000304.3_12 [762 - 806] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+GREEGKTESRQRKKS
+>NM_000304.3_13 [752 - 868] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+AYIGKGGRENRKQTKKKELAQNPKLKPNQTESSGGGGCC
+>NM_000304.3_14 [810 - 872] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+PKIPNSNQTKQKAVEVGVAVD
+>NM_000304.3_15 [367 - 900] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+HLFLRKCPPLFLIITKRMAAVCPGHHDPVDHLQHSVSVPVLLPTLHPHQGGQVLHHWNLP
+NSCWSVRDECCGHLHGEAPGVASQLGLLLRFRLHPGLGGLPPGPSQRCHLCDLAETRMRR
+PDGLSEALSVHREGRKGKQKADKEKRASPKSQTQTKPNRKQWRWGLLLIEDVYNISGL
+>NM_000304.3_16 [872 - 913] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+LKMYIISPVYKTYL
+>NM_000304.3_17 [888 - 959] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+YLRFIKPIYNTFYIYVHSIVCFLC
+>NM_000304.3_18 [904 - 984] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+NLFITLFTYMYIVLFAFYVDHQPRVEP
+>NM_000304.3_19 [941 - 1021] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+YCLLFMLTISLVLSLKEVAKELYILTV
+>NM_000304.3_20 [1000 - 1080] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+GTLHPNSIIQLSIFVLFFVCLFCFTQK
+>NM_000304.3_21 [1017 - 1085] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+QYNPAQYFCFVFCLFVLFYPEIR
+>NM_000304.3_22 [1025 - 1114] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SSSVFLFCFLFVCFVLPRNKITPSRPFPFI
+>NM_000304.3_23 [1084 - 1149] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+DNSISPLPFHLKEDTSLPVHLI
+>NM_000304.3_24 [1118 - 1168] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+KKIPPSQSTSFRKPKCG
+>NM_000304.3_25 [1153 - 1206] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+KTKVWVETPNVQKPFSGG
+>NM_000304.3_26 [1172 - 1252] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+KPQMSKSPFLVGDPVHPTETAAARTSV
+>NM_000304.3_27 [1256 - 1363] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SFTRTRTKCPNWSPCKNTACGIGILALTGGVSSSHI
+>NM_000304.3_28 [1089 - 1367] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+LHLAPSLSSERRYLPPSPPHLENQSVGRNPKCPKALFWWVTQCIQQKQPLPEPLCEALRA
+HGQNAQTGALAKTRLVALAYLPLQVEYLRHTSK
+>NM_000304.3_29 [1210 - 1392] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+PSASNRNSRCPNLCVKLYAHTDKMPKLEPLQKHGLWHWHTCPYRWSIFVTHLNEKSVTTS
+L
+>NM_000304.3_30 [1371 - 1430] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+EISDNKSLKWCYGFTIPYYH
+>NM_000304.3_31 [1382 - 1438] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+QQVFEMVLWIYHSLLSLII
+>NM_000304.3_32 [1434 - 1478] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SSKQLTGNPINNFTT
+>NM_000304.3_33 [1396 - 1500] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+NGAMDLPFLIITNHLNNSLEIQLTILQHKIEWRPE
+>NM_000304.3_34 [1514 - 1546] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+YKWFITAFVPS
+>NM_000304.3_35 [1530 - 1565] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+LLLYLARLLLLL
+>NM_000304.3_36 [1550 - 1579] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+AAIITIMSKS
+>NM_000304.3_37 [1576 - 1635] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+IIKPSSLPHFSYGRSIRTSV
+>NM_000304.3_38 [1572 - 1652] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+VNHKAFITPTFFLRSEHQNKRLDSLGP
+>NM_000304.3_39 [1583 - 1660] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SLHHSHIFLTVGASEQASRLLGTVSS
+>NM_000304.3_40 [1639 - 1677] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+TPWDREFLELGWV
+>NM_000304.3_41 [1656 - 1712] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+VPRAWLGLGCSVPPRTVWQ
+>NM_000304.3_42 [1664 - 1735] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SLAGSRLFCASKDCLAMTCIGHQL
+>NM_000304.3_43 [1681 - 1758] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+AVLCLQGLSGNDLYWPPTVDVYMVPF
+>NM_000304.3_44 [1739 - 1801] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+MYIWCPSDAKTPDLLFLLCIF
+>NM_000304.3_45 [1716 - 1835] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+LVLATNCRCIYGALLMLRLQTFCFCFAFSDFIPTVWTKMH
+>NM_000304.3_46 [1768 - 1860] Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+DSRPFVFALHFLILYQLCGLRCIKINIRVTH
+>NM_000304.3_47 [1860 - 1828] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+VSYSDVYFNAS
+>NM_000304.3_48 [1856 - 1767] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+VTLMFILMHLSPHSWYKIRKCKAKTKGLES
+>NM_000304.3_49 [1763 - 1680] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+HQKGTIYTSTVGGQYKSLPDSPWRHRTA
+>NM_000304.3_50 [1806 - 1663] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+NQKMQSKNKRSGVLASEGHHIYIYSWWPIQVIARQSLEAQNSLDPAKL
+>NM_000304.3_51 [1676 - 1638] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+TQPSSRNSRSQGV
+>NM_000304.3_52 [1834 - 1625] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+CILVHTVGIKSENAKQKQKVWSLSIRRAPYIHLQLVANTSHCQTVLGGTEQPRPSQALGT
+HGPKESRRLF
+>NM_000304.3_53 [1659 - 1594] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+ELTVPRSLDACSDAPTVRKMWE
+>NM_000304.3_54 [1621 - 1580] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+CSDRKKNVGVMKAL
+>NM_000304.3_55 [1607 - 1566] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+EKCGSDEGFMIYSL
+>NM_000304.3_56 [1587 - 1549] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+RLYDLLIIVIIAA
+>NM_000304.3_57 [1545 - 1474] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+LGTKAVINHLYYTELFRSPFYLML
+>NM_000304.3_58 [1523 - 1437] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+TIYITQNYSGLHSILCCKIVNWISSELFR
+>NM_000304.3_59 [1576 - 1433] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+FTHYSNNSSLARYKSSYKPFILHRIIQVSILSYVVKLLIGFPVSCLDD
+>NM_000304.3_60 [1410 - 1378] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+IHSTISKTCCH
+>NM_000304.3_61 [1402 - 1358] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+HHFKDLLSLISHLDV
+>NM_000304.3_62 [1433 - 1338] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+LVIIRNGKSIAPFQRLVVTDFSFRCVTKILHL
+>NM_000304.3_63 [1334 - 1263] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+GQVCQCHKPCFCKGSSLGILSVCA
+>NM_000304.3_64 [1259 - 1152] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SFTQRFGQRLFLLDALGHPPEKGFWTFGVSTHTLVF
+>NM_000304.3_65 [1354 - 1148] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+RRYSTCKGKYANATSRVFARAPVWAFCPCARKASHRGSGSGCFCWMHWVTHQKRAFGHLG
+FLPTLWFSK
+>NM_000304.3_66 [1148 - 1113] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+MRWTGREVSSFR
+>NM_000304.3_67 [1144 - 1073] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+GGLGGRYLLSDEREGARWSYLISG
+>NM_000304.3_68 [1069 - 1034] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+NKTNKQKTKQKY
+>NM_000304.3_69 [1362 - 1009] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+MCDEDTPPVRASMPMPQAVFLQGLQFGHFVRVRVKLHTEVRAAAVSVGCTGSPTRKGLLD
+IWGFYPHFGFLNEVDWEGGIFFQMKGKGRDGVILFLGKTKQTNKKQNKNTELDYTVRM
+>NM_000304.3_70 [1109 - 999] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+KGRGEMELSYFWVKQNKQTKNKTKILSWIILLGCKVP
+>NM_000304.3_71 [1012 - 926] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+DVKFLSYFFKAQHEADGQHKKQTILCTYM
+>NM_000304.3_72 [1005 - 910] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SSLATSLRLNTRLMVNIKSKQYYVHICKKCYK
+>NM_000304.3_73 [953 - 828] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+KANNTMYIYVKSVINRFYKPEILYTSSINSNPHLHCFLFGLV
+>NM_000304.3_74 [910 - 809] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+IGFINRRYYIHLQSTATPTSTAFCLVWFEFGILG
+>NM_000304.3_75 [897 - 697] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+TGDIIYIFNQQQPPPPLLSVWFGLSLGFWASSFFFVCFLFSLPPFPMYAQSLRQTVWAPH
+SRFRKIT
+>NM_000304.3_76 [824 - 693] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+VWDFGLALFSLSAFCFPFLPSLCTLRASDRPSGRLIRVSARSHR
+>NM_000304.3_77 [693 - 646] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+MTPLRRARGKATQARM
+>NM_000304.3_78 [680 - 618] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+EGPGGRPPRPGCRRNRRSNPS
+>NM_000304.3_79 [624 - 589] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+SELRCHSGCLTV
+>NM_000304.3_80 [614 - 534] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+DATPGASPCRWPQHSSRTDQQEFGRFQ
+>NM_000304.3_81 [585 - 529] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+MAAALITHRPARIWKIPVM
+>NM_000304.3_82 [500 - 465] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+RVGRRTGTETEC
+>NM_000304.3_83 [805 - 410] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+LFFLCLLSVFPSSLPYVRSEPQTDRLGASFAFPQDHIDDTAEKGQGEGHPGQDVGETVGV
+IRVEMPLRVPHRVDGRSTHHAQTSKNLEDSSDVKPAPLGEGEELAEEQEQRQNAEDDRQD
+HGGLDRLQPFVW
+>NM_000304.3_84 [455 - 315] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+STGSWWPGQTAAIRLVMMRNSGGHFLRKRCYSSARDQLRVHCPRSIG
+>NM_000304.3_85 [311 - 264] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+RSWRRTAAPAPRRGGR
+>NM_000304.3_86 [376 - 191] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+GRGATVLPEISCVSIAHDPLADDRGDEQQHQHRDVEDDDTQQQEEHSGGKFCSAEFLPGQ
+TA
+>NM_000304.3_87 [525 - 142] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+NLPPLVRVKSWQKNRNRDRMLKMIDRIMVAWTDCSHSFGDDEKQWWTFPEEEVLQFCQRS
+VACPLPTIHWLTIVETNSSTSTATWRTMILSNRRSILAASSAQRSFCPAKQRNPFFQADF
+FAAKCKGC
+>NM_000304.3_88 [187 - 92] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+PLLPSRFLCSQMQGMLRQDPPHRAVRDPQPTD
+>NM_000304.3_89 [138 - 37] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+GKTLPTGQSETRSRQTKPAASNQAPRDVPWWCSL
+>NM_000304.3_90 [260 - 33] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+YSATGGAFWRQVLLSGVSARPNSVTPSSKQISLQPNARDVKARPSPQGSQRPAADRLSLQ
+LPTRLPEMFPGGAPCN
+>NM_000304.3_91 [88 - 2] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+ACSFQPGSPRCSLVVLPVTEARPGVFPVY
+>NM_000304.3_92 [33 - 1] (REVERSE SENSE) Homo sapiens peripheral myelin protein 22 (PMP22), transcript variant 1, mRNA
+LKPDQASFQFI

@@ -1,0 +1,1254 @@
+{PDOC00000}
+{BEGIN}
+**********************************
+*** PROSITE documentation file ***
+**********************************
+
+Release 20.127 of 08-Jun-2016.
+
+PROSITE is developed by the SIB Swiss Institute of Bioinformatics under the
+responsability of Ioannis Xenarios and Alan Bridge.
+
+This release was prepared by the PROSITE team: Delphine Baratin, Beatrice
+Cuche, Edouard de Castro, Severine Duvaud, Sylvain Poux, Nicole Redaschi and
+Christian Sigrist.
+
+See: http://prosite.expasy.org
+Email: prosite@expasy.org
+
+Acknowledgements:
+
+ - To people who have contributed to the creation, development, and production
+   of PROSITE: Amos Bairoch, Philippe Bucher, Virginie Bulliard, Lorenzo
+   Cerutti, Laurent Falquet, Elisabeth Gasteiger, Alexander Gattiker, Nicolas
+   Hulo, Kay Hofmann, Dominique Koua, Petra Langendijk-Genevaux, Corinne
+   Lachaize, and Marco Pagni.
+ - To all those mentioned in this document who have reviewed the entry(ies)
+   for which they are listed as experts. With specific thanks to Rein Aasland,
+   Mark Boguski, Peer Bork, Josh Cherry, Andre Chollet, Frank Kolakowski,
+   David Landsman, Bernard Henrissat, Eugene Koonin, Steve Henikoff, Manuel
+   Peitsch and Jonathan Reizer.
+ - Jim Apostolopoulos is the author of the PDOC00699 entry.
+ - Brigitte Boeckmann is the author of the PDOC00691, PDOC00703, PDOC00829,
+   PDOC00796, PDOC00798, PDOC00799, PDOC00906, PDOC00907, PDOC00908,
+   PDOC00912, PDOC00913, PDOC00924, PDOC00928, PDOC00929, PDOC00955,
+   PDOC00961, PDOC00966, PDOC00988 and PDOC50020 entries.
+ - Jean-Louis Boulay is the author of the PDOC01051, PDOC01050, PDOC01052,
+   PDOC01053 and PDOC01054 entries.
+ - Ryszard Brzezinski is the author of the PDOC60000 entry.
+ - Rick Cote is the author of the PDOC60031 entry.
+ - Elisabeth Coudert is the author of the PDOC00373 entry.
+ - Kirill Degtyarenko is the author of the PDOC60001 entry.
+ - Christian Doerig is the author of the PDOC01049 entry.
+ - Kay Hofmann is the author of the PDOC50003, PDOC50006, PDOC50007 and
+   PDOC50017 entries.
+ - Chantal Hulo is the author of the PDOC00987 entry.
+ - Karine Michoud is the author of the PDOC01044 and PDOC01042 entries.
+ - Yuri Panchin is the author of the PDOC51013 entry.
+ - S. Ramakumar is the author of the PDOC51052, PDOC60004, PDOC60010,
+   PDOC60011, PDOC60015, PDOC60016, PDOC60018, PDOC60020, PDOC60021,
+   PDOC60022, PDOC60023, PDOC60024, PDOC60025, PDOC60026, PDOC60027,
+   PDOC60028, PDOC60029 and PDOC60030 entries.
+ - Keith Robison is the author of the PDOC00830 and PDOC00861 entries.
+
+   ------------------------------------------------------------------------
+   PROSITE is copyright.   It  is  produced  by  the  SIB  Swiss  Institute
+   Bioinformatics. There  are  no  restrictions  on  its  use by non-profit
+   institutions as long as its  content is in no way modified. Usage by and
+   for commercial  entities requires a license agreement.   For information
+   about the licensing scheme send an email to license@sib.swiss or see:
+   http://prosite.expasy.org/prosite_license.html.
+   ------------------------------------------------------------------------
+{END}
+
+{PDOC00001}
+{PS00001; ASN_GLYCOSYLATION}
+{BEGIN}
+************************
+* N-glycosylation site *
+************************
+
+It has been known for a long time [1] that potential N-glycosylation sites are
+specific to the consensus sequence Asn-Xaa-Ser/Thr.  It must be noted that the
+presence of the consensus  tripeptide  is  not sufficient  to conclude that an
+asparagine residue is glycosylated, due to  the fact that the  folding of  the
+protein plays an important  role in the  regulation of N-glycosylation [2]. It
+has been shown [3] that  the  presence of proline between Asn and Ser/Thr will
+inhibit N-glycosylation; this  has  been confirmed by a recent [4] statistical
+analysis of glycosylation sites, which also  shows that about 50% of the sites
+that have a proline C-terminal to Ser/Thr are not glycosylated.
+
+It must also  be noted that there  are  a few  reported cases of glycosylation
+sites with the pattern Asn-Xaa-Cys; an  experimentally demonstrated occurrence
+of such a non-standard site is found in the plasma protein C [5].
+
+-Consensus pattern: N-{P}-[ST]-{P}
+                    [N is the glycosylation site]
+-Last update: May 1991 / Text revised.
+
+[ 1] Marshall R.D.
+     "Glycoproteins."
+     Annu. Rev. Biochem. 41:673-702(1972).
+     PubMed=4563441; DOI=10.1146/annurev.bi.41.070172.003325
+[ 2] Pless D.D., Lennarz W.J.
+     "Enzymatic conversion of proteins to glycoproteins."
+     Proc. Natl. Acad. Sci. U.S.A. 74:134-138(1977).
+     PubMed=264667
+[ 3] Bause E.
+     "Structural requirements of N-glycosylation of proteins. Studies with
+     proline peptides as conformational probes."
+     Biochem. J. 209:331-336(1983).
+     PubMed=6847620
+[ 4] Gavel Y., von Heijne G.
+     "Sequence differences between glycosylated and non-glycosylated
+     Asn-X-Thr/Ser acceptor sites: implications for protein engineering."
+     Protein Eng. 3:433-442(1990).
+     PubMed=2349213
+[ 5] Miletich J.P., Broze G.J. Jr.
+     "Beta protein C is not glycosylated at asparagine 329. The rate of
+     translation may influence the frequency of usage at
+     asparagine-X-cysteine sites."
+     J. Biol. Chem. 265:11397-11404(1990).
+     PubMed=1694179
+{END}
+{PDOC00004}
+{PS00004; CAMP_PHOSPHO_SITE}
+{BEGIN}
+****************************************************************
+* cAMP- and cGMP-dependent protein kinase phosphorylation site *
+****************************************************************
+
+There has been a  number of studies  relative to the  specificity of cAMP- and
+cGMP-dependent protein kinases [1,2,3].  Both types of kinases appear to share
+a preference  for  the  phosphorylation  of serine or threonine residues found
+close to at least  two consecutive N-terminal  basic residues. It is important
+to note that there are quite a number of exceptions to this rule.
+
+-Consensus pattern: [RK](2)-x-[ST]
+                    [S or T is the phosphorylation site]
+-Last update: June 1988 / First entry.
+
+[ 1] Fremisco J.R., Glass D.B., Krebs E.G.
+     J. Biol. Chem. 255:4240-4245(1980).
+[ 2] Glass D.B., Smith S.B.
+     "Phosphorylation by cyclic GMP-dependent protein kinase of a synthetic
+     peptide corresponding to the autophosphorylation site in the enzyme."
+     J. Biol. Chem. 258:14797-14803(1983).
+     PubMed=6317673
+[ 3] Glass D.B., el-Maghrabi M.R., Pilkis S.J.
+     "Synthetic peptides corresponding to the site phosphorylated in
+     6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase as substrates of
+     cyclic nucleotide-dependent protein kinases."
+     J. Biol. Chem. 261:2987-2993(1986).
+     PubMed=3005275
+{END}
+{PDOC00005}
+{PS00005; PKC_PHOSPHO_SITE}
+{BEGIN}
+*****************************************
+* Protein kinase C phosphorylation site *
+*****************************************
+
+In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+serine or  threonine residues found close to a C-terminal basic residue [1,2].
+The presence  of  additional   basic residues at the  N- or C-terminal of  the
+target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+
+-Consensus pattern: [ST]-x-[RK]
+                    [S or T is the phosphorylation site]
+-Last update: June 1988 / First entry.
+
+[ 1] Woodget J.R., Gould K.L., Hunter T.
+     Eur. J. Biochem. 161:177-184(1986).
+[ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+     Takeyama Y., Nishizuka Y.
+     "Studies on the phosphorylation of myelin basic protein by protein
+     kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+     J. Biol. Chem. 260:12492-12499(1985).
+     PubMed=2413024
+{END}
+{PDOC00006}
+{PS00006; CK2_PHOSPHO_SITE}
+{BEGIN}
+*****************************************
+* Casein kinase II phosphorylation site *
+*****************************************
+
+Casein kinase II (CK-2) is a protein serine/threonine kinase whose activity is
+independent of  cyclic  nucleotides   and  calcium.  CK-2  phosphorylates many
+different proteins.   The  substrate  specificity [1]  of  this  enzyme can be
+summarized as follows:
+
+ (1) Under comparable conditions Ser is favored over Thr.
+ (2) An acidic residue (either Asp or Glu) must be present three residues from
+     the C-terminal of the phosphate acceptor site.
+ (3) Additional acidic  residues in  positions +1, +2, +4, and +5 increase the
+     phosphorylation rate.  Most  physiological  substrates  have at least one
+     acidic residue in these positions.
+ (4) Asp is preferred to Glu as the provider of acidic determinants.
+ (5) A basic residue at the N-terminal  of the  acceptor  site  decreases  the
+     phosphorylation rate, while an acidic one will increase it.
+
+-Consensus pattern: [ST]-x(2)-[DE]
+                    [S or T is the phosphorylation site]
+
+-Note: This pattern is found in most of the known physiological substrates.
+
+-Last update: May 1991 / Text revised.
+
+[ 1] Pinna L.A.
+     "Casein kinase 2: an 'eminence grise' in cellular regulation?"
+     Biochim. Biophys. Acta 1054:267-284(1990).
+     PubMed=2207178
+{END}
+{PDOC00007}
+{PS00007; TYR_PHOSPHO_SITE}
+{BEGIN}
+****************************************
+* Tyrosine kinase phosphorylation site *
+****************************************
+
+Substrates of tyrosine protein kinases are generally characterized by a lysine
+or an arginine seven residues  to  the N-terminal side  of  the phosphorylated
+tyrosine.  An acidic residue (Asp  or Glu) is often  found at either  three or
+four residues to  the N-terminal side  of  the tyrosine  [1,2,3].  There are a
+number of exceptions to  this rule such as the  tyrosine phosphorylation sites
+of enolase and lipocortin II.
+
+-Consensus pattern: [RK]-x(2)-[DE]-x(3)-Y
+                 or [RK]-x(3)-[DE]-x(2)-Y
+                    [Y is the phosphorylation site]
+-Last update: June 1988 / First entry.
+
+[ 1] Patschinsky T., Hunter T., Esch F.S., Cooper J.A., Sefton B.M.
+     "Analysis of the sequence of amino acids surrounding sites of tyrosine
+     phosphorylation."
+     Proc. Natl. Acad. Sci. U.S.A. 79:973-977(1982).
+     PubMed=6280176
+[ 2] Hunter T.
+     "Synthetic peptide substrates for a tyrosine protein kinase."
+     J. Biol. Chem. 257:4843-4848(1982).
+     PubMed=6279650
+[ 3] Cooper J.A., Esch F.S., Taylor S.S., Hunter T.
+     "Phosphorylation sites in enolase and lactate dehydrogenase utilized
+     by tyrosine protein kinases in vivo and in vitro."
+     J. Biol. Chem. 259:7835-7841(1984).
+     PubMed=6330085
+{END}
+{PDOC00008}
+{PS00008; MYRISTYL}
+{BEGIN}
+*************************
+* N-myristoylation site *
+*************************
+
+An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+has been  derived from the sequence of known N-myristoylated proteins and from
+studies using synthetic peptides. It seems to be the following:
+
+ - The N-terminal residue must be glycine.
+ - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+   and large hydrophobic residues are not allowed.
+ - In positions 3 and 4, most, if not all, residues are allowed.
+ - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+   Asn and Gly). Serine is favored.
+ - In position 6, proline is not allowed.
+
+-Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+                    [G is the N-myristoylation site]
+
+-Note: We  deliberately include as  potential myristoylated  glycine residues,
+ those which  are  internal  to a sequence. It could well be that the sequence
+ under study  represents  a  viral  polyprotein  precursor and that subsequent
+ proteolytic processing  could expose an internal glycine as the N-terminal of
+ a mature protein.
+
+-Last update: October 1989 / Pattern and text revised.
+
+[ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+     "The biology and enzymology of eukaryotic protein acylation."
+     Annu. Rev. Biochem. 57:69-99(1988).
+     PubMed=3052287; DOI=10.1146/annurev.bi.57.070188.000441
+[ 2] Grand R.J.A.
+     "Acylation of viral and eukaryotic proteins."
+     Biochem. J. 258:625-638(1989).
+     PubMed=2658970
+{END}
+{PDOC00009}
+{PS00009; AMIDATION}
+{BEGIN}
+******************
+* Amidation site *
+******************
+
+The precursor of  hormones  and other active  peptides  which are C-terminally
+amidated is always directly followed [1,2] by a glycine residue which provides
+the amide group, and  most often by at  least two  consecutive  basic residues
+(Arg or Lys) which generally function as an active peptide  precursor cleavage
+site.  Although all amino acids can be amidated,  neutral hydrophobic residues
+such as Val or Phe are good substrates, while  charged residues such as Asp or
+Arg  are much less reactive.  C-terminal  amidation has not  yet been shown to
+occur in unicellular organisms or in plants.
+
+-Consensus pattern: x-G-[RK]-[RK]
+                    [x is the amidation site]
+-Last update: June 1988 / First entry.
+
+[ 1] Kreil G.
+     "Occurrence, detection, and biosynthesis of carboxy-terminal amides."
+     Methods Enzymol. 106:218-223(1984).
+     PubMed=6548541
+[ 2] Bradbury A.F., Smyth D.G.
+     "Biosynthesis of the C-terminal amide in peptide hormones."
+     Biosci. Rep. 7:907-916(1987).
+     PubMed=3331120
+{END}
+{PDOC00010}
+{PS00010; ASX_HYDROXYL}
+{BEGIN}
+***************************************************
+* Aspartic acid and asparagine hydroxylation site *
+***************************************************
+
+Post-translational  hydroxylation of aspartic acid or  asparagine [1] to  form
+erythro-beta-hydroxyaspartic acid  or erythro-beta-hydroxyasparagine  has been
+identified in a number of proteins with domains homologous to epidermal growth
+factor (EGF).   Examples  of such  proteins  are the blood coagulation protein
+factors VII, IX and X, proteins C, S, and Z, the LDL receptor, thrombomodulin,
+etc.  Based on sequence comparisons  of the EGF-homology region  that contains
+hydroxylated Asp or Asn, a consensus sequence  has been identified  that seems
+to be required by the hydroxylase(s).
+
+-Consensus pattern: C-x-[DN]-x(4)-[FY]-x-C-x-C
+                    [D or N is the hydroxylation site]
+-Sequences known to belong to this class detected by the pattern: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Note: This  consensus  pattern  is  located  in  the  N-terminal  of EGF-like
+ domains, while  our  EGF-like    cysteine pattern signature (see the relevant
+ entry <PDOC00021>) is located in the C-terminal.
+
+-Last update: January 1989 / First entry.
+
+[ 1] Stenflo J., Ohlin A.-K., Owen W.G., Schneider W.J.
+     "beta-Hydroxyaspartic acid or beta-hydroxyasparagine in bovine low
+     density lipoprotein receptor and in bovine thrombomodulin."
+     J. Biol. Chem. 263:21-24(1988).
+     PubMed=2826439
+{END}
+{PDOC00011}
+{PS00011; GLA_1}
+{PS50998; GLA_2}
+{BEGIN}
+**********************************************************************
+* Gamma-carboxyglutamic acid-rich (Gla) domain signature and profile *
+**********************************************************************
+
+The  vitamin  K-dependent  blood  coagulation  factor  IX  as  well as several
+extracellular  regulatory proteins require vitamin K for the posttranslational
+synthesis  of  gamma-carboxyglutamic  acid,  an  amino  acid  clustered in the
+N-terminal  Gla  domain  of these proteins [1,2]. The Gla domain is a membrane
+binding  motif  which,  in  the  presence  of  calcium  ions,  interacts  with
+phospholipid membranes that include phosphatidylserine.
+
+The  3D  structure  of  the  Gla  domain  has  been  solved  (see  for example
+<PDB:1CFH>)  [3,4].  Calcium  ions  induce  conformational  changes in the Gla
+domain  and  are  necessary  for  the  Gla  domain  to fold properly. A common
+structural  feature  of functional Gla domains is the clustering of N-terminal
+hydrophobic  residues  into a hydrophobic patch that mediates interaction with
+the cell surface membrane [4].
+
+Proteins known to contain a Gla domain are listed below:
+
+ - A number of plasma proteins involved in blood coagulation.   These proteins
+   are prothrombin, coagulation factors VII, IX and X, proteins C, S, and Z.
+ - Two proteins that  occur  in calcified tissues:  osteocalcin (also known as
+   bone-Gla protein, BGP), and matrix Gla-protein (MGP).
+ - Proline-rich Gla proteins 1 and 2 [5].
+ - Cone snail venom peptides: conantokin-G and -T, and conotoxin GS [6].
+
+The  pattern  we  developed  start with the conserved Gla-x(3)-Gla-x-Cys motif
+found  in  the  middle of the domain which seems to be important for substrate
+recognition by the carboxylase [7] and end with the last conserved position of
+the  domain (an aromatic residue). We also developed a profile that covers the
+whole Gla domain.
+
+-Consensus pattern: E-x(2)-[ERK]-E-x-C-x(6)-[EDR]-x(10,11)-[FYA]-[YW]
+                    [The 2 E's are the carboxylation site]
+-Sequences known to belong to this class detected by the pattern: ALL.
+-Other sequence(s) detected in Swiss-Prot: 1.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Note: All glutamic residues present in the domain are potential carboxylation
+ sites; in coagulation proteins, all are modified to Gla, while in BGP and MGP
+ some are not.
+
+-Expert(s) to contact by email:
+           Price P.A.; pprice@ucsd.edu
+
+-Last update: June 2004 / Pattern and text revised; profile added.
+
+[ 1] Friedman P.A., Przysiecki C.T.
+     "Vitamin K-dependent carboxylation."
+     Int. J. Biochem. 19:1-7(1987).
+     PubMed=3106112
+[ 2] Vermeer C.
+     "Gamma-carboxyglutamate-containing proteins and the vitamin
+     K-dependent carboxylase."
+     Biochem. J. 266:625-636(1990).
+     PubMed=2183788
+[ 3] Freedman S.J., Furie B.C., Furie B., Baleja J.D.
+     "Structure of the metal-free gamma-carboxyglutamic acid-rich membrane
+     binding region of factor IX by two-dimensional NMR spectroscopy."
+     J. Biol. Chem. 270:7980-7987(1995).
+     PubMed=7713897
+[ 4] Freedman S.J., Blostein M.D., Baleja J.D., Jacobs M., Furie B.C.,
+     Furie B.
+     "Identification of the phospholipid binding site in the vitamin
+     K-dependent blood coagulation protein factor IX."
+     J. Biol. Chem. 271:16227-16236(1996).
+     PubMed=8663165
+[ 5] Kulman J.D., Harris J.E., Haldeman B.A., Davie E.W.
+     "Primary structure and tissue distribution of two novel proline-rich
+     gamma-carboxyglutamic acid proteins."
+     Proc. Natl. Acad. Sci. U.S.A. 94:9058-9062(1997).
+     PubMed=9256434
+[ 6] Haack J.A., Rivier J.E., Parks T.N., Mena E.E., Cruz L.J., Olivera B.M.
+     "Conantokin-T. A gamma-carboxyglutamate containing peptide with
+     N-methyl-d-aspartate antagonist activity."
+     J. Biol. Chem. 265:6025-6029(1990).
+     PubMed=2180939
+[ 7] Price P.A., Fraser J.D., Metz-Virca G.
+     "Molecular cloning of matrix Gla protein: implications for substrate
+     recognition by the vitamin K-dependent gamma-carboxylase."
+     Proc. Natl. Acad. Sci. U.S.A. 84:8335-8339(1987).
+     PubMed=3317405
+{END}
+{PDOC00012}
+{PS00012; PHOSPHOPANTETHEINE}
+{PS50075; ACP_DOMAIN}
+{BEGIN}
+**************************************
+* Phosphopantetheine attachment site *
+**************************************
+
+Phosphopantetheine (or pantetheine 4' phosphate) is  the  prosthetic  group of
+acyl carrier proteins (ACP) in some  multienzyme complexes  where it serves as
+a 'swinging  arm'  for  the  attachment of activated fatty acid and amino-acid
+groups [1].  Phosphopantetheine  is  attached  to  a  serine  residue in these
+proteins [2].  ACP  proteins  or   domains  have  been found in various enzyme
+systems which  are  listed  below  (references  are only provided for recently
+determined sequences).
+
+ - Fatty  acid  synthase  (FAS),  which  catalyzes the formation of long-chain
+   fatty acids  from  acetyl-CoA,  malonyl-CoA  and NADPH. Bacterial and plant
+   chloroplast FAS are composed of eight separate subunits which correspond to
+   the  different  enzymatic  activities;  ACP  is  one of these polypeptides.
+   Fungal FAS consists of two multifunctional proteins, FAS1 and FAS2; the ACP
+   domain is  located  in  the  N-terminal  section  of  FAS2.  Vertebrate FAS
+   consists of a single  multifunctional  enzyme;  the ACP  domain  is located
+   between the beta-ketoacyl reductase  domain and the C-terminal thioesterase
+   domain [3].
+ - Polyketide antibiotics  synthase enzyme systems.  Polyketides are secondary
+   metabolites produced from simple fatty acids, by microorganisms and plants.
+   ACP is one of the polypeptidic  components  involved in the biosynthesis of
+   Streptomyces polyketide  antibiotics  actinorhodin,  curamycin, granatacin,
+   monensin, oxytetracycline and tetracenomycin C.
+ - Bacillus  subtilis  putative polyketide synthases pksK, pksL and pksM which
+   respectively contain three, five and one ACP domains.
+ - The multifunctional 6-methysalicylic acid synthase (MSAS) from  Penicillium
+   patulum. This is a multifunctional enzyme involved in the biosynthesis of a
+   polyketide antibiotic  and  which  contains an ACP domain in the C-terminal
+   extremity.
+ - Multifunctional  mycocerosic  acid  synthase  (gene mas) from Mycobacterium
+   bovis.
+ - Gramicidin  S  synthase  I  (gene  grsA)  from Bacillus brevis. This enzyme
+   catalyzes the  first  step  in  the  biosynthesis  of the cyclic antibiotic
+   gramicidin S.
+ - Tyrocidine  synthase  I  (gene  tycA)  from  Bacillus  brevis. The reaction
+   carried out by tycA is identical to that catalyzed by grsA.
+ - Gramicidin S synthase II (gene grsB) from Bacillus brevis. This enzyme is a
+   multifunctional protein  that  activates  and  polymerizes proline, valine,
+   ornithine and leucine. GrsB contains four ACP domains.
+ - Erythronolide synthase proteins 1, 2 and 3 from Saccharopolyspora erythraea
+   which is   involved  in  the  biosynthesis  of  the  polyketide  antibiotic
+   erythromicin. Each of these proteins contain two ACP domains.
+ - Conidial green pigment synthase from Aspergillus nidulans.
+ - ACV  synthase  from  various fungi. This enzyme catalyzes the first step in
+   the biosynthesis  of  penicillin  and  cephalosporin. It contains three ACP
+   domains.
+ - Enterobactin  synthase  component F (gene entF) from Escherichia coli. This
+   enzyme is  involved  in  the  ATP-dependent  activation  of  serine  during
+   enterobactin (enterochelin) biosynthesis.
+ - Cyclic  peptide  antibiotic  surfactin  synthase  subunits  1, 2 and 3 from
+   Bacillus subtilis.  Subunits  1  and 2 contains three related domains while
+   subunit 3 only contains a single domain.
+ - HC-toxin  synthase  (gene  HTS1)  from  Cochliobolus  carbonum. This enzyme
+   synthesizes HC-toxin,   a  cyclic  tetrapeptide.  HTS1  contains  four  ACP
+   domains.
+ - Fungal  mitochondrial  ACP,  which  is  part  of the respiratory chain NADH
+   dehydrogenase (complex I).
+ - Rhizobium nodulation protein nodF,  which  probably  acts  as an ACP in the
+   synthesis of the nodulation Nod factor fatty acyl chain.
+
+The sequence around the phosphopantetheine attachment site is conserved in all
+these proteins  and  can  be  used  as a signature pattern. A profile was also
+developed that spans the complete ACP-like domain.
+
+-Consensus pattern: [DEQGSTALMKRH]-[LIVMFYSTAC]-[GNQ]-[LIVMFYAG]-[DNEKHS]-S-
+                    [LIVMST]-{PCFY}-[STAGCPQLIVMF]-[LIVMATN]-[DENQGTAKRHLM]-
+                    [LIVMWSTA]-[LIVGSTACR]-{LPIY}-{VY}-[LIVMFA]
+                    [S is the pantetheine attachment site]
+-Sequences known to belong to this class detected by the pattern: ALL,  except
+ C.paradoxa ACP.
+-Other sequence(s) detected in Swiss-Prot: 115.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Last update: December 2004 / Pattern and text revised.
+
+[ 1] Concise Encyclopedia Biochemistry, Second Edition, Walter de Gruyter,
+     Berlin New-York (1988).
+[ 2] Pugh E.L., Wakil S.J.
+     J. Biol. Chem. 240:4727-4733(1965).
+[ 3] Witkowski A., Rangan V.S., Randhawa Z.I., Amy C.M., Smith S.
+     "Structural organization of the multifunctional animal fatty-acid
+     synthase."
+     Eur. J. Biochem. 198:571-579(1991).
+     PubMed=2050137
+{END}
+{PDOC00013}
+{PS51257; PROKAR_LIPOPROTEIN}
+{BEGIN}
+******************************************************************
+* Prokaryotic membrane lipoprotein lipid attachment site profile *
+******************************************************************
+
+In prokaryotes, membrane lipoproteins are synthesized  with a precursor signal
+peptide, which is cleaved  by  a specific lipoprotein signal peptidase (signal
+peptidase II). The peptidase recognizes a conserved sequence and cuts upstream
+of a cysteine residue  to which a  glyceride-fatty acid lipid is attached [1].
+Some of  the  proteins known to undergo such processing currently include (for
+recent listings see [1,2,3]):
+
+ - Major outer membrane lipoprotein (murein-lipoproteins) (gene lpp).
+ - Escherichia coli lipoprotein-28 (gene nlpA).
+ - Escherichia coli lipoprotein-34 (gene nlpB).
+ - Escherichia coli lipoprotein nlpC.
+ - Escherichia coli lipoprotein nlpD.
+ - Escherichia coli osmotically inducible lipoprotein B (gene osmB).
+ - Escherichia coli osmotically inducible lipoprotein E (gene osmE).
+ - Escherichia coli peptidoglycan-associated lipoprotein (gene pal).
+ - Escherichia coli rare lipoproteins A and B (genes rplA and rplB).
+ - Escherichia coli copper homeostasis protein cutF (or nlpE).
+ - Escherichia coli plasmids traT proteins.
+ - Escherichia coli Col plasmids lysis proteins.
+ - A number of Bacillus beta-lactamases.
+ - Bacillus subtilis periplasmic oligopeptide-binding protein (gene oppA).
+ - Borrelia burgdorferi outer surface proteins A and B (genes ospA and ospB).
+ - Borrelia hermsii variable major protein 21 (gene vmp21) and 7 (gene vmp7).
+ - Chlamydia trachomatis outer membrane protein 3 (gene omp3).
+ - Fibrobacter succinogenes endoglucanase cel-3.
+ - Haemophilus influenzae proteins Pal and Pcp.
+ - Klebsiella pullulunase (gene pulA).
+ - Klebsiella pullulunase secretion protein pulS.
+ - Mycoplasma hyorhinis protein p37.
+ - Mycoplasma hyorhinis variant surface antigens A, B, and C (genes vlpABC).
+ - Neisseria outer membrane protein H.8.
+ - Pseudomonas aeruginosa lipopeptide (gene lppL).
+ - Pseudomonas solanacearum endoglucanase egl.
+ - Rhodopseudomonas viridis reaction center cytochrome subunit (gene cytC).
+ - Rickettsia 17 Kd antigen.
+ - Shigella flexneri invasion plasmid proteins mxiJ and mxiM.
+ - Streptococcus pneumoniae oligopeptide transport protein A (gene amiA).
+ - Treponema pallidium 34 Kd antigen.
+ - Treponema pallidium membrane protein A (gene tmpA).
+ - Vibrio harveyi chitobiase (gene chb).
+ - Yersinia virulence plasmid protein yscJ.
+
+ - Halocyanin from Natrobacterium pharaonis [4], a membrane associated copper-
+   binding protein.  This  is  the  first archaebacterial  protein known to be
+   modified in such a fashion).
+
+From  the precursor sequences of all these proteins, we derived a profile that
+starts   at   the   beginning   of   the   sequence   and   ends   after   the
+post-translationally modified cysteine.
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: some 100 prokaryotic proteins. Some
+ of them are not membrane lipoproteins, but at least half of them could be.
+
+-Note:  This profile replace an obsolete rule. All the information in the rule
+ has been encoded in the profile format.
+
+-Last update: October 2006 / Text revised; profiles added; rule deleted.
+
+[ 1] Hayashi S., Wu H.C.
+     "Lipoproteins in bacteria."
+     J. Bioenerg. Biomembr. 22:451-471(1990).
+     PubMed=2202727
+[ 2] Klein P., Somorjai R.L., Lau P.C.K.
+     "Distinctive properties of signal sequences from bacterial
+     lipoproteins."
+     Protein Eng. 2:15-20(1988).
+     PubMed=3253732
+[ 3] von Heijne G.
+     Protein Eng. 2:531-534(1989).
+[ 4] Mattar S., Scharf B., Kent S.B.H., Rodewald K., Oesterhelt D.,
+     Engelhard M.
+     "The primary structure of halocyanin, an archaeal blue copper protein,
+     predicts a lipid anchor for membrane fixation."
+     J. Biol. Chem. 269:14939-14945(1994).
+     PubMed=8195126
+{END}
+{PDOC00014}
+{PS00014; ER_TARGET}
+{BEGIN}
+********************************************
+* Endoplasmic reticulum targeting sequence *
+********************************************
+
+Proteins  that permanently reside in the  lumen  of  the endoplasmic reticulum
+(ER) seem to be distinguished from newly synthesized secretory proteins by the
+presence of  the C-terminal  sequence Lys-Asp-Glu-Leu (KDEL) [1,2]. While KDEL
+is the preferred signal in many species, variants  of  that signal are used by
+different species. This situation is described in the following table.
+
+   Signal   Species
+   ----------------------------------------------------------------
+   KDEL     Vertebrates, Drosophila, Caenorhabditis elegans, plants
+   HDEL     Saccharomyces cerevisiae, Kluyveromyces lactis, plants
+   DDEL     Kluyveromyces lactis
+   ADEL     Schizosaccharomyces pombe (fission yeast)
+   SDEL     Plasmodium falciparum
+
+The signal is usually very  strictly  conserved in  major ER proteins but some
+minor ER  proteins  have   divergent  sequences  (probably  because  efficient
+retention of these proteins is not crucial to the cell).
+
+Proteins bearing the KDEL-type signal are  not simply held in the ER,  but are
+selectively retrieved from a post-ER compartment by a receptor and returned to
+their normal location.
+
+The currently known ER luminal proteins are listed below.
+
+ - Protein  disulfide-isomerase  (PDI)   (also  known  as  the beta-subunit of
+   prolyl 4-hydroxylase, as  a  component  of  oligosaccharyl  transferase, as
+   glutathione-insulin  transhydrogenase  and  as  a  thyroid  hormone binding
+   protein).
+ - ERp60, ERp72, and P5, three minor isoforms of PDI.
+ - Trypanosoma brucei bloodstream-specific protein 2, a probable PDI.
+ - hsp70  related  protein GRP78 (also known as the immunoglobulin heavy chain
+   binding protein (BiP), and as KAR2, in fungi).
+ - hsp90 related protein 'endoplasmin' (also known as GRP94, Erp99 or Hsp108).
+ - Calreticulin, a  calcium-binding protein (also  known as calregulin, CRP55,
+   or HACBP).
+ - ERC-55, a calcium-binding protein.
+ - Reticulocalbin, a calcium-binding protein.
+ - Hsp47, a heat-shock protein that  binds  strongly to collagen and could act
+   as a chaperone in the collagen biosynthetic pathway.
+ - A receptor for a plant hormone, auxin.
+ - Thiol proteases from rice bean (SH-EP) and kidney bean (EP-C1).
+ - Esterases from mammalian liver and from nematodes.
+ - Alpha-2-macroglobulin receptor-associated protein (RAP).
+ - Yeast peptidyl-prolyl cis-trans isomerase D (CYPD).
+ - Yeast protein KRE5, a protein required for (1->6)-beta-D-glucan synthesis.
+ - Yeast  protein  SEC20,  required    for  the transport of proteins from the
+   endoplasmic reticulum to the Golgi apparatus.
+ - Yeast protein SCJ1, involved in protein sorting.
+
+-Consensus pattern: [KRHQSA]-[DENQ]-E-L>
+-Sequences known to belong to this class detected by the pattern: ALL,  except
+ for liver esterases which have H-[TVI]-E-L.
+-Other sequence(s) detected in Swiss-Prot: 24 proteins which  are  clearly not
+ located in  the  ER  (because  they  are  of  bacterial  or viral origin, for
+ example) and a protein which can be considered as valid candidate: human 80K-
+ H protein.
+-Last update: November 1997 / Text revised.
+
+[ 1] Munro S., Pelham H.R.B.
+     "A C-terminal signal prevents secretion of luminal ER proteins."
+     Cell 48:899-907(1987).
+     PubMed=3545499
+[ 2] Pelham H.R.B.
+     "The retention signal for soluble proteins of the endoplasmic
+     reticulum."
+     Trends Biochem. Sci. 15:483-486(1990).
+     PubMed=2077689
+{END}
+{PDOC00015}
+{PS50079; NLS_BP}
+{BEGIN}
+*************************************************
+* Bipartite nuclear localization signal profile *
+*************************************************
+
+The uptake  of protein by  the   nucleus  is extremely selective   and nuclear
+proteins must therefore  contain within  their final  structure a signal  that
+specifies selective accumulation in the nucleus [1,2]. Studies on some nuclear
+proteins, such as  the  large T antigen of SV40,  have indicated which part of
+the sequence  is  required  for  nuclear  translocation.   The  known  nuclear
+targeting sequences  are   generally  basic, but  there  seems to  be no clear
+common denominator  between  all the known sequences.  Although some consensus
+sequence patterns have  been proposed (see for example [3]),  the current best
+strategy to detect a nuclear targeting sequence is based [4] on  the following
+definition of what is called a 'bipartite nuclear localization signal':
+
+  (1) Two adjacent basic amino acids (Arg or Lys).
+  (2) A spacer region of any 10 residues.
+  (3) At least three basic residues (Arg or Lys) in the five positions
+      after the spacer region.
+
+The  profile  we  developed  covers  the entire bipartite nuclear localization
+signal.
+
+-Sequences known to belong to this class detected by the profile: 56% of known
+ nuclear proteins according to [4].
+-Other sequence(s) detected in Swiss-Prot: about 4.2% of  non-nuclear proteins
+ according to [4].
+
+-Note:  This profile replace an obsolete rule. All the information in the rule
+ has been encoded in the profile format.
+
+-Last update: October 2006 / Text revised; profiles added; rule deleted.
+
+[ 1] Dingwall C., Laskey R.A.
+     "Protein import into the cell nucleus."
+     Annu. Rev. Cell Biol. 2:367-390(1986).
+     PubMed=3548772; DOI=10.1146/annurev.cb.02.110186.002055
+[ 2] Garcia-Bustos J.F., Heitman J., Hall M.N.
+     Biochim. Biophys. Acta 1071:83-101(1991).
+[ 3] Gomez-Marquez J., Segade F.
+     FEBS Lett. 226:217-219(1988).
+[ 4] Dingwall C., Laskey R.A.
+     "Nuclear targeting sequences -- a consensus?"
+     Trends Biochem. Sci. 16:478-481(1991).
+     PubMed=1664152
+{END}
+{PDOC00016}
+{PS00016; RGD}
+{BEGIN}
+****************************
+* Cell attachment sequence *
+****************************
+
+The sequence Arg-Gly-Asp, found in fibronectin, is crucial for its interaction
+with its cell surface receptor, an integrin [1,2].  What  has  been called the
+'RGD' tripeptide is also found in the sequences of a number of other proteins,
+where it has been shown to play a role in cell adhesion.   These proteins are:
+some forms of collagens, fibrinogen, vitronectin, von Willebrand factor (VWF),
+snake disintegrins, and slime mold discoidins.   The 'RGD'  tripeptide is also
+found in other proteins  where  it  may also,  but not always,  serve the same
+purpose.
+
+-Consensus pattern: R-G-D
+-Last update: December 1991 / Text revised.
+
+[ 1] Ruoslahti E., Pierschbacher M.D.
+     "Arg-Gly-Asp: a versatile cell recognition signal."
+     Cell 44:517-518(1986).
+     PubMed=2418980
+[ 2] d'Souza S.E., Ginsberg M.H., Plow E.F.
+     Trends Biochem. Sci. 16:246-250(1991).
+{END}
+{PDOC00017}
+{PS00017; ATP_GTP_A}
+{BEGIN}
+*****************************************
+* ATP/GTP-binding site motif A (P-loop) *
+*****************************************
+
+From sequence comparisons and crystallographic data analysis it has been shown
+[1,2,3,4,5,6] that an appreciable proportion of proteins that  bind ATP or GTP
+share a number of more or less conserved sequence motifs.   The best conserved
+of these  motifs  is  a  glycine-rich region, which typically forms a flexible
+loop between a beta-strand and an alpha-helix. This loop interacts with one of
+the phosphate  groups  of  the  nucleotide.   This sequence motif is generally
+referred to as the 'A' consensus sequence [1] or the 'P-loop' [5].
+
+There are numerous ATP- or GTP-binding proteins  in which the P-loop is found.
+We list below  a number of protein  families  for  which  the relevance of the
+presence of such motif has been noted:
+
+ - ATP synthase alpha and beta subunits (see <PDOC00137>).
+ - Myosin heavy chains.
+ - Kinesin heavy chains and kinesin-like proteins (see <PDOC00343>).
+ - Dynamins and dynamin-like proteins (see <PDOC00362>).
+ - Guanylate kinase (see <PDOC00670>).
+ - Thymidine kinase (see <PDOC00524>).
+ - Thymidylate kinase (see <PDOC01034>).
+ - Shikimate kinase (see <PDOC00868>).
+ - Nitrogenase iron protein family (nifH/chlL) (see <PDOC00580>).
+ - ATP-binding proteins involved  in 'active transport' (ABC transporters) [7]
+   (see <PDOC00185>).
+ - DNA and RNA helicases [8,9,10].
+ - GTP-binding elongation factors (EF-Tu, EF-1alpha, EF-G, EF-2, etc.).
+ - Ras family of GTP-binding proteins (Ras, Rho, Rab, Ral, Ypt1, SEC4, etc.).
+ - Nuclear protein ran (see <PDOC00859>).
+ - ADP-ribosylation factors family (see <PDOC00781>).
+ - Bacterial dnaA protein (see <PDOC00771>).
+ - Bacterial recA protein (see <PDOC00131>).
+ - Bacterial recF protein (see <PDOC00539>).
+ - Guanine nucleotide-binding proteins alpha subunits (Gi, Gs, Gt, G0, etc.).
+ - DNA mismatch repair proteins mutS family (See <PDOC00388>).
+ - Bacterial type II secretion system protein E (see <PDOC00567>).
+
+Not all ATP- or GTP-binding proteins are picked-up by this motif.  A number of
+proteins escape detection because the structure   of their ATP-binding site is
+completely different from that of the P-loop.  Examples  of  such proteins are
+the E1-E2 ATPases or  the  glycolytic kinases.   In  other ATP- or GTP-binding
+proteins the flexible loop exists  in a  slightly different form; this is  the
+case for tubulins or protein kinases.  A special mention must  be reserved for
+adenylate  kinase,  in  which  there  is a  single  deviation  from the P-loop
+pattern: in the last position Gly is found instead of Ser or Thr.
+
+-Consensus pattern: [AG]-x(4)-G-K-[ST]
+-Sequences known to belong to this class detected by the pattern: a majority.
+-Other sequence(s) detected in Swiss-Prot: in addition to the proteins  listed
+ above,  the 'A' motif is also  found in a number  of other proteins.  Most of
+ these proteins  probably  bind  a nucleotide, but others are definitively not
+ ATP- or GTP-binding (as for example  chymotrypsin,  or  human  ferritin light
+ chain).
+
+-Expert(s) to contact by email:
+           Koonin E.V.; koonin@ncbi.nlm.nih.gov
+
+-Last update: July 1999 / Text revised.
+
+[ 1] Walker J.E., Saraste M., Runswick M.J., Gay N.J.
+     "Distantly related sequences in the alpha- and beta-subunits of ATP
+     synthase, myosin, kinases and other ATP-requiring enzymes and a common
+     nucleotide binding fold."
+     EMBO J. 1:945-951(1982).
+     PubMed=6329717
+[ 2] Moller W., Amons R.
+     "Phosphate-binding sequences in nucleotide-binding proteins."
+     FEBS Lett. 186:1-7(1985).
+     PubMed=2989003
+[ 3] Fry D.C., Kuby S.A., Mildvan A.S.
+     "ATP-binding site of adenylate kinase: mechanistic implications of its
+     homology with ras-encoded p21, F1-ATPase, and other nucleotide-binding
+     proteins."
+     Proc. Natl. Acad. Sci. U.S.A. 83:907-911(1986).
+     PubMed=2869483
+[ 4] Dever T.E., Glynias M.J., Merrick W.C.
+     "GTP-binding domain: three consensus sequence elements with distinct
+     spacing."
+     Proc. Natl. Acad. Sci. U.S.A. 84:1814-1818(1987).
+     PubMed=3104905
+[ 5] Saraste M., Sibbald P.R., Wittinghofer A.
+     "The P-loop -- a common motif in ATP- and GTP-binding proteins."
+     Trends Biochem. Sci. 15:430-434(1990).
+     PubMed=2126155
+[ 6] Koonin E.V.
+     "A superfamily of ATPases with diverse functions containing either
+     classical or deviant ATP-binding motif."
+     J. Mol. Biol. 229:1165-1174(1993).
+     PubMed=8445645
+[ 7] Higgins C.F., Hyde S.C., Mimmack M.M., Gileadi U., Gill D.R.,
+     Gallagher M.P.
+     "Binding protein-dependent transport systems."
+     J. Bioenerg. Biomembr. 22:571-592(1990).
+     PubMed=2229036
+[ 8] Hodgman T.C.
+     "A new superfamily of replicative proteins."
+     Nature 333:22-23(1988) and Nature 333:578-578(1988) (Errata).
+     PubMed=3362205; DOI=10.1038/333022b0
+[ 9] Linder P., Lasko P.F., Ashburner M., Leroy P., Nielsen P.J., Nishi K.,
+     Schnier J., Slonimski P.P.
+     "Birth of the D-E-A-D box."
+     Nature 337:121-122(1989).
+     PubMed=2563148; DOI=10.1038/337121a0
+[10] Gorbalenya A.E., Koonin E.V., Donchenko A.P., Blinov V.M.
+     Nucleic Acids Res. 17:4713-4730(1989).
+{END}
+{PDOC00018}
+{PS00018; EF_HAND_1}
+{PS50222; EF_HAND_2}
+{BEGIN}
+********************************************************
+* EF-hand calcium-binding domain signature and profile *
+********************************************************
+
+Many calcium-binding proteins belong to the same evolutionary family and share
+a  type  of calcium-binding domain known as the EF-hand [1 to 5]. This type of
+domain  consists  of  a  twelve  residue loop flanked on both side by a twelve
+residue  alpha-helical domain (see <PDB:1CLL>). In an EF-hand loop the calcium
+ion is coordinated in a pentagonal bipyramidal configuration. The six residues
+involved  in the binding are in positions 1, 3, 5, 7, 9 and 12; these residues
+are denoted by X, Y, Z, -Y, -X and -Z. The invariant Glu or Asp at position 12
+provides   two   oxygens  for  liganding  Ca  (bidentate  ligand).  The  basic
+structural/functional  unit  of  EF-hand proteins is usually a pair of EF-hand
+motifs  that  together  form a stable four-helix bundle domain. The pairing of
+EF-hand enables cooperativity in the binding of Ca2+ ions.
+
+We list below the proteins  which  are  known to contain EF-hand  regions. For
+each type of protein we have indicated between parenthesis the total number of
+EF-hand regions known or supposed to exist.   This  number  does  not  include
+regions which  clearly  have  lost  their  calcium-binding  properties, or the
+atypical low-affinity site (which spans thirteen residues) found in the S-100/
+ICaBP family of proteins [6].
+
+ - Aequorin and Renilla luciferin binding protein (LBP) (Ca=3).
+ - Alpha actinin (Ca=2).
+ - Calbindin (Ca=4).
+ - Calcineurin B subunit (protein phosphatase 2B regulatory subunit) (Ca=4).
+ - Calcium-binding protein from Streptomyces erythraeus (Ca=3?).
+ - Calcium-binding protein from Schistosoma mansoni (Ca=2?).
+ - Calcium-binding  proteins  TCBP-23 and TCBP-25 from Tetrahymena thermophila
+   (Ca=4?).
+ - Calcium-dependent protein kinases (CDPK) from plants (Ca=4).
+ - Calcium vector protein from amphoxius (Ca=2).
+ - Calcyphosin (thyroid protein p24) (Ca=4?).
+ - Calmodulin (Ca=4, except in yeast where Ca=3).
+ - Calpain small and large chains (Ca=2).
+ - Calretinin (Ca=6).
+ - Calcyclin (prolactin receptor associated protein) (Ca=2).
+ - Caltractin (centrin) (Ca=2 or 4).
+ - Cell Division Control protein 31 (gene CDC31) from yeast (Ca=2?).
+ - Diacylglycerol kinase (EC 2.7.1.107) (DGK) (Ca=2).
+ - FAD-dependent   glycerol-3-phosphate   dehydrogenase   (EC  1.1.99.5)  from
+   mammals (Ca=1).
+ - Fimbrin (plastin) (Ca=2).
+ - Flagellar calcium-binding protein (1f8) from Trypanosoma cruzi (Ca=1 or 2).
+ - Guanylate cyclase activating protein (GCAP) (Ca=3).
+ - Inositol phospholipid-specific phospholipase C isozymes gamma-1 and delta-1
+   (Ca=2) [10].
+ - Intestinal calcium-binding protein (ICaBPs) (Ca=2).
+ - MIF related proteins 8 (MRP-8 or CFAG) and 14 (MRP-14) (Ca=2).
+ - Myosin regulatory light chains (Ca=1).
+ - Oncomodulin (Ca=2).
+ - Osteonectin  (basement  membrane  protein  BM-40) (SPARC) and proteins that
+   contains an  'osteonectin'  domain  (QR1, matrix glycoprotein SC1) (see the
+   entry <PDOC00535>) (Ca=1).
+ - Parvalbumins alpha and beta (Ca=2).
+ - Placental  calcium-binding  protein  (18a2)  (nerve  growth  factor induced
+   protein 42a) (p9k) (Ca=2).
+ - Recoverins (visinin, hippocalcin, neurocalcin, S-modulin) (Ca=2 to 3).
+ - Reticulocalbin (Ca=4).
+ - S-100 protein, alpha and beta chains (Ca=2).
+ - Sarcoplasmic calcium-binding protein (SCPs) (Ca=2 to 3).
+ - Sea urchin proteins Spec 1 (Ca=4), Spec 2 (Ca=4?), Lps-1 (Ca=8).
+ - Serine/threonine  specific  protein  phosphatase  rdgc  (EC 3.1.3.16)  from
+   Drosophila (Ca=2).
+ - Sorcin V19 from hamster (Ca=2).
+ - Spectrin alpha chain (Ca=2).
+ - Squidulin (optic lobe calcium-binding protein) from squid (Ca=4).
+ - Troponins C; from  skeletal muscle (Ca=4), from cardiac muscle (Ca=3), from
+   arthropods and molluscs (Ca=2).
+
+There has been a number of attempts [7,8] to develop patterns that pick-up EF-
+hand  regions,  but  these  studies were made a few years ago when not so many
+different  families  of  calcium-binding  proteins  were  known.  We therefore
+developed a new pattern which takes into account all published sequences. This
+pattern  includes the complete EF-hand loop as well as the first residue which
+follows  the loop and which seem to always be hydrophobic. We also developed a
+profile that covers the loop and the two alpha helices.
+
+-Consensus pattern: D-{W}-[DNS]-{ILVFYW}-[DENSTG]-[DNQGHRK]-{GP}-[LIVMC]-
+                    [DENQSTAGC]-x(2)-[DE]-[LIVMFYW]
+-Sequences known to belong to this class detected by the profile: ALL.
+ for a few sequences.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+ probably not calcium-binding  and  a few proteins for which we have reason to
+ believe that  they bind  calcium:  a number  of endoglucanases and a xylanase
+ from the  cellulosome complex of Clostridium [9].
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Note: Positions 1 (X), 3 (Y) and 12 (-Z) are the most conserved.
+-Note: The 6th residue in an EF-hand loop is, in most  cases a  Gly,  but  the
+ number of exceptions to this 'rule' has gradually increased and we felt  that
+ the pattern should include all the  different  residues which have been shown
+ to exist in this position in functional Ca-binding sites.
+-Note: The pattern will, in some cases,  miss  one  of  the EF-hand regions in
+ some proteins with multiple EF-hand domains.
+
+-Expert(s) to contact by email:
+           Cox J.A.; cox@sc2a.unige.ch
+           Kretsinger R.H.; rhk5i@virginia.edu
+
+-Last update: April 2006 / Pattern revised.
+
+[ 1] Kawasaki H., Kretsinger R.H.
+     "Calcium-binding proteins 1: EF-hands."
+     Protein Prof. 2:305-490(1995).
+     PubMed=7553064
+[ 2] Kretsinger R.H.
+     "Calcium coordination and the calmodulin fold: divergent versus
+     convergent evolution."
+     Cold Spring Harb. Symp. Quant. Biol. 52:499-510(1987).
+     PubMed=3454274
+[ 3] Moncrief N.D., Kretsinger R.H., Goodman M.
+     "Evolution of EF-hand calcium-modulated proteins. I. Relationships
+     based on amino acid sequences."
+     J. Mol. Evol. 30:522-562(1990).
+     PubMed=2115931
+[ 4] Nakayama S., Moncrief N.D., Kretsinger R.H.
+     "Evolution of EF-hand calcium-modulated proteins. II. Domains of
+     several subfamilies have diverse evolutionary histories."
+     J. Mol. Evol. 34:416-448(1992).
+     PubMed=1602495
+[ 5] Heizmann C.W., Hunziker W.
+     "Intracellular calcium-binding proteins: more sites than insights."
+     Trends Biochem. Sci. 16:98-103(1991).
+     PubMed=2058003
+[ 6] Kligman D., Hilt D.C.
+     "The S100 protein family."
+     Trends Biochem. Sci. 13:437-443(1988).
+     PubMed=3075365
+[ 7] Strynadka N.C.J., James M.N.
+     "Crystal structures of the helix-loop-helix calcium-binding
+     proteins."
+     Annu. Rev. Biochem. 58:951-998(1989).
+     PubMed=2673026; DOI=10.1146/annurev.bi.58.070189.004511
+[ 8] Haiech J., Sallantin J.
+     "Computer search of calcium binding sites in a gene data bank: use of
+     learning techniques to build an expert system."
+     Biochimie 67:555-560(1985).
+     PubMed=3839696
+[ 9] Chauvaux S., Beguin P., Aubert J.-P., Bhat K.M., Gow L.A., Wood T.M.,
+     Bairoch A.
+     "Calcium-binding affinity and calcium-enhanced activity of Clostridium
+     thermocellum endoglucanase D."
+     Biochem. J. 265:261-265(1990).
+     PubMed=2302168
+[10] Bairoch A., Cox J.A.
+     "EF-hand motifs in inositol phospholipid-specific phospholipase C."
+     FEBS Lett. 269:454-456(1990).
+     PubMed=2401372
+{END}
+{PDOC00019}
+{PS00019; ACTININ_1}
+{PS00020; ACTININ_2}
+{BEGIN}
+************************************************
+* Actinin-type actin-binding domain signatures *
+************************************************
+
+Alpha-actinin is  a F-actin cross-linking  protein  which is thought to anchor
+actin to a variety of intracellular structures [1].   The actin-binding domain
+of alpha-actinin seems to reside in the first  250 residues of the protein.  A
+similar actin-binding domain has  been  found in the N-terminal region of many
+different actin-binding proteins [2,3]:
+
+ - In the beta chain of spectrin (or fodrin).
+ - In dystrophin, the protein defective  in  Duchenne muscular dystrophy (DMD)
+   and which  may  play a  role  in  anchoring the  cytoskeleton to the plasma
+   membrane.
+ - In the slime mold gelation factor (or ABP-120).
+ - In actin-binding protein ABP-280  (or filamin), a  protein  that link actin
+   filaments to membrane glycoproteins.
+ - In fimbrin (or plastin),  an actin-bundling protein.  Fimbrin  differs from
+   the above proteins in  that  it  contains  two  tandem copies of the actin-
+   binding domain and that these copies are located  in the C-terminal part of
+   the protein.
+
+We selected  two  conserved  regions  as  signature  patterns for this type of
+domain.  The first of this region  is located at  the beginning of the domain,
+while the second one is  located in  the central section and has been shown to
+be essential for the binding of actin.
+
+-Consensus pattern: [EQ]-{LNYH}-x-[ATV]-[FY]-{LDAM}-{T}-W-{PG}-N
+-Sequences known to belong to this class detected by the pattern: ALL.
+-Other sequence(s) detected in Swiss-Prot: 32.
+
+-Consensus pattern: [LIVM]-x-[SGNL]-[LIVMN]-[DAGHENRS]-[SAGPNVT]-x-[DNEAG]-
+                    [LIVM]-x-[DEAGQ]-x(4)-[LIVM]-x-[LM]-[SAG]-[LIVM]-[LIVMT]-
+                    [WS]-x(0,1)-[LIVM](2)
+-Sequences known to belong to this class detected by the pattern: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+-Last update: April 2006 / Patterns revised.
+
+[ 1] Schleicher M., Andre E., Hartmann H., Noegel A.A.
+     "Actin-binding proteins are conserved from slime molds to man."
+     Dev. Genet. 9:521-530(1988).
+     PubMed=3243032
+[ 2] Matsudaira P.
+     "Modular organization of actin crosslinking proteins."
+     Trends Biochem. Sci. 16:87-92(1991).
+     PubMed=2058002
+[ 3] Dubreuil R.R.
+     "Structure and evolution of the actin crosslinking proteins."
+     BioEssays 13:219-226(1991).
+     PubMed=1892474
+{END}
+{PDOC00020}
+{PS00021; KRINGLE_1}
+{PS50070; KRINGLE_2}
+{BEGIN}
+****************************************
+* Kringle domain signature and profile *
+****************************************
+
+Kringles [1,2,3]  are triple-looped, disulfide cross-linked domains found in a
+varying number  of  copies,  in some serine proteases and plasma proteins. The
+kringle domain has been found in the following proteins:
+
+ - Apolipoprotein A (38 copies).
+ - Blood coagulation factor XII (Hageman factor) (1 copy).
+ - Hepatocyte growth factor (HGF) (4 copies).
+ - Hepatocyte growth factor like protein (4 copies) [4].
+ - Hepatocyte growth factor activator [1] (once) [5].
+ - Plasminogen (5 copies).
+ - Thrombin (2 copies).
+ - Tissue plasminogen activator (TPA) (2 copies).
+ - Urokinase-type plasminogen activator (1 copy).
+
+The schematic  representation  of the structure of a typical kringle domain is
+shown below:
+
+          +---------------------------------------+
+          |                                       |
+         xCxxxxxxxxxxxCxxxxxxxxxxCxxxxxCxxxxxxCxxxCx
+                      |          |     |      |
+                      +----------|-----+      |
+                                 +------------+
+
+'C': conserved cysteine involved in a disulfide bond.
+
+Kringle domains  are thought to  play a  role  in  binding  mediators, such as
+membranes, other   proteins   or  phospholipids,  and  in  the  regulation  of
+proteolytic activity.   As a  signature pattern  for this type  of domain,  we
+selected a  conserved  sequence that contains two of the cysteines invovled in
+disulfide bonds.
+
+-Consensus pattern: [FY]-C-[RH]-[NS]-x(7,8)-[WY]-C
+                    [The 2 C's are involved in a disulfide bonds]
+-Sequences known to belong to this class detected by the pattern: ALL.
+-Other sequence(s) detected in Swiss-Prot: 5
+
+-Sequences known to belong to this class detected by the profile: ALL.
+-Other sequence(s) detected in Swiss-Prot: NONE.
+
+-Expert(s) to contact by email:
+           Ikeo K.; kikeo@genes.nig.ac.jp
+
+-Last update: May 2004 / Text revised.
+
+[ 1] Castellino F.J., Beals J.M.
+     "The genetic relationships between the kringle domains of human
+     plasminogen, prothrombin, tissue plasminogen activator, urokinase, and
+     coagulation factor XII."
+     J. Mol. Evol. 26:358-369(1987).
+     PubMed=3131537
+[ 2] Patthy L.
+     "Evolution of the proteases of blood coagulation and fibrinolysis by
+     assembly from modules."
+     Cell 41:657-663(1985).
+     PubMed=3891096
+[ 3] Ikeo K., Takahashi K., Gojobori T.
+     "Evolutionary origin of numerous kringles in human and simian
+     apolipoprotein(a)."
+     FEBS Lett. 287:146-148(1991).
+     PubMed=1879523
+[ 4] Friezner Degen S.J., Stuart L.A., Han S., Jamison C.S.
+     Biochemistry 30:9781-9791(1991).
+[ 5] Miyazawa K., Shimomura T., Kitamura A., Kondo J., Morimoto Y.,
+     Kitamura N.
+     "Molecular cloning and sequence analysis of the cDNA for a human
+     serine protease reponsible for activation of hepatocyte growth factor.
+     Structural similarity of the protease precursor to blood coagulation
+     factor XII."
+     J. Biol. Chem. 268:10024-10028(1993).
+     PubMed=7683665
+{END}
+{PDOC00021}
+{PS00022; EGF_1}
+{PS01186; EGF_2}
+{PS50026; EGF_3}
+{BEGIN}
+******************************************
+* EGF-like domain signatures and profile *
+******************************************
+
+A sequence of  about thirty  to forty amino-acid  residues  long found in  the
+sequence of  epidermal  growth  factor  (EGF)  has been  shown  [1 to 6] to be
+present, in  a more or less conserved form, in a large number of other, mostly
+animal  proteins.  EGF  is  a  polypeptide  of about 50 amino acids with three
+internal  disulfide  bridges.  It  first  binds with high affinity to specific
+cell-surface receptors and then induces their dimerization, which is essential
+for  activating  the  tyrosine  kinase  in  the  receptor  cytoplasmic domain,
+initiating  a  signal  transduction  that  results  in  DNA synthesis and cell
+proliferation.
+
+A  common  feature  of  all  EGF-like  domains  is  that they are found in the
+extracellular  domain  of  membrane-bound  proteins or in proteins known to be
+secreted (exception: prostaglandin G/H synthase). The EGF-like domain includes
+six cysteine residues which have been shown to be involved in disulfide bonds.
+The  structure  of several EGF-like domains has been solved. The fold consists
+of   two-stranded  beta-sheet  followed  by  a  loop  to  a  C-terminal  short
+two-stranded sheet   (see   <PDB:1EGF>).   Subdomains  between  the  conserved
+cysteines strongly  vary  in  length  as  shown  in  the  following  schematic
+representation of the EGF-like domain:
+
+                 +-------------------+        +-------------------------+
+                 |                   |        |                         |
+  x(4)-C-x(0,48)-C-x(3,12)-C-x(1,70)-C-x(1,6)-C-x(2)-G-a-x(0,21)-G-x(2)-C-x
+       |                   |         ************************************
+       +-------------------+
+
+'C': conserved cysteine involved in a disulfide bond.
+'G': often conserved glycine
+'a': often conserved aromatic amino acid
+'*': position of both patterns.
+'x': any residue
+
+Some  proteins  known  to contain one or more copies of an EGF-like domain are
+listed below.
+
+ - Adipocyte differentiation inhibitor (gene PREF-1) from mouse (6 copies).
+ - Agrin, a basal lamina protein  that causes the aggregation of acetylcholine
+   receptors on cultured muscle fibers (4 copies).
+ - Amphiregulin, a growth factor (1 copy).
+ - Betacellulin, a growth factor (1 copy).
+ - Blastula  proteins  BP10  and  Span from sea urchin which are thought to be
+   involved in pattern formation (1 copy).
+ - BM86, a glycoprotein antigen of cattle tick (7 copies).
+ - Bone morphogenic protein 1 (BMP-1), a  protein which induces cartilage  and
+   bone formation  and  which  expresses  metalloendopeptidase  activity  (1-2
+   copies). Homologous proteins are found in sea urchin - suBMP (1 copy) - and
+   in Drosophila - the dorsal-ventral patterning protein tolloid (2 copies).
+ - Caenorhabditis elegans developmental proteins lin-12 (13 copies)  and glp-1
+   (10 copies).
+ - Caenorhabditis elegans apx-1 protein, a patterning protein (4.5 copies).
+ - Calcium-dependent serine proteinase (CASP) which degrades the extracellular
+   matrix proteins type I and IV collagen and fibronectin (1 copy).
+ - Cartilage matrix protein CMP (1 copy).
+ - Cartilage oligomeric matrix protein COMP (4 copies).
+ - Cell surface antigen 114/A10 (3 copies).
+ - Cell surface glycoprotein complex transmembrane subunit ASGP-2  from rat (2
+   copies).
+ - Coagulation associated proteins C, Z (2 copies) and S (4 copies).
+ - Coagulation factors VII, IX, X and XII (2 copies).
+ - Complement C1r components (1 copy).
+ - Complement C1s components (1 copy).
+ - Complement-activating component of Ra-reactive factor (RARF) (1 copy).
+ - Complement components C6, C7, C8 alpha and beta chains, and C9 (1 copy).
+ - Crumbs, an epithelial development protein from Drosophila (29 copies).
+ - Epidermal growth factor precursor (7-9 copies).
+ - Exogastrula-inducing peptides A, C, D and X from sea urchin (1 copy).
+ - Fat protein, a Drosophila cadherin-related tumor suppressor (5 copies).
+ - Fetal  antigen  1, a probable neuroendocrine differentiation protein, which
+   is derived from the delta-like protein (DLK) (6 copies).
+ - Fibrillin 1 (47 copies) and fibrillin 2 (14 copies).
+ - Fibropellins  IA  (21 copies), IB (13 copies), IC (8 copies), II (4 copies)
+   and III   (8   copies)  from  the  apical  lamina  -  a  component  of  the
+   extracellular matrix - of sea urchin.
+ - Fibulin-1 and -2, two extracellular matrix proteins (9-11 copies).
+ - Giant-lens  protein (protein Argos), which regulates cell determination and
+   axon guidance in the Drosophila eye (1 copy).
+ - Growth factor-related proteins from various poxviruses (1 copy).
+ - Gurken protein, a Drosophila developmental protein (1 copy).
+ - Heparin-binding EGF-like growth factor (HB-EGF), transforming growth factor
+   alpha (TGF-alpha), growth factors Lin-3 and Spitz (1 copy);  the precursors
+   are membrane proteins, the mature form is located extracellular.
+ - Hepatocyte growth factor (HGF) activator (EC 3.4.21.-) (2 copies).
+ - LDL  and  VLDL receptors, which bind and transpo

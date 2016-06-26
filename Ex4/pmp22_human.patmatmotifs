@@ -1,0 +1,24 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 26 Jun 2016 20:10:53
+# Commandline: patmatmotifs
+#    -full
+#    -sequence Q01453.fasta
+# Report_format: dbmotif
+# Report_file: pmp22_human.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: PMP22_HUMAN     from: 1   to: 160
+# HitCount: 0
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
