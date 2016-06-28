@@ -2,12 +2,12 @@
 
 use Bio::Tools::Run::Alignment::Clustalw;
 
+#  Pass the factory a list of sequences to be aligned.
+my $inputfilename = $ARGV[0];
+
 #  Build a clustalw alignment factory
 @params = ('ktuple' => 2, 'matrix' => 'BLOSUM');
 $factory = Bio::Tools::Run::Alignment::Clustalw->new(@params);
-
-#  Pass the factory a list of sequences to be aligned.        
-$inputfilename = 'seqdump.txt';
 
 $str = Bio::SeqIO->new(-file=> $inputfilename, -format => 'Fasta');
 @seq_array =();
