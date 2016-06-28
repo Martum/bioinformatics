@@ -5,8 +5,9 @@ use warnings;
 use Bio::SearchIO;
 
 my $filter = $ARGV[0];
+my $inputfilename = $ARGV[1];
 
-my $report_obj = new Bio::SearchIO(-format => 'blast', -file   => 'blast.out');
+my $report_obj = new Bio::SearchIO(-format => 'blast', -file   => $inputfilename);
 
 my $filename = 'Ex3-output.txt';
 
